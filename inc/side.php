@@ -11,13 +11,6 @@
 <nav class="nav" role="navigation">
     <h1><a href="<?php echo $home ?>" class="logo">MLicon</a></h1>
 
-    <div style="font-size:1rem;">
-      <?php echo $url ?> <br/>
-      <?php echo $home ?><br>
-      <?php echo $tex ?><br>
-    </div>
-
-
     <?php
 	if ( $url == $home) { } elseif ( $url == $home.'index.php') { } else { ?>
 	<ul class="project-nav">
