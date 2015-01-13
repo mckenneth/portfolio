@@ -1,0 +1,177 @@
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	// text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+body {
+	font: 1.4em / 1.45em $primary;
+	color: $text-color;
+	margin: 0;
+	background: $body-bg;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 200;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.clear {
+	clear: both;
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 100%;
+	z-index: 100;
+}
+
+.project-nav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+
+	li {
+		width: 60%;
+		list-style: none;
+		border-top: 1px solid #cecece;
+		margin: 0 auto;
+	}
+
+	li a {
+		width: 100px;
+		height: 5rem;
+		display: block;
+		margin-left: -20%;
+		text-align: center;
+		font-size: 2.4rem;
+		padding: 25% 25% 0 0;
+		color: #444;
+	}
+}
+
+.logo {
+	text-indent: 999px;
+	width: 56px;
+	height: 31px;
+	display: block;
+	margin: 0 auto;
+	background: url(../img/mlicon.png) no-repeat;
+	background-size: contain;
+	position: relative;
+	top: 0;
+	opacity: 0.75;
+}
+
+.main {
+	margin: 0 100px 0 0;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+	@include shadow(#888888, 10px);
+	z-index: 0;
+}
+
+.intro {
+	overflow: hidden;
+}
+
+.intro__text {
+	font: 200 4.8rem/1.06em "proxima-nova", Arial, sans-serif;
+	margin: 4rem 0 0.4em (100%/3);
+	padding-top: 0.01em;
+}
+
+.intro:after {
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: -25%;
+	background-image: url('../img/mck_bg.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.2;
+}
+
+.projects {
+	line-height: 0;
+	font-size:0;
+}
+
+.item {
+	display: block;
+	float: left;
+	width: 33.3334%;
+	position: relative;
+	overflow: hidden;
+	font-size:0;
+
+	&--spacer {
+		background: #fff;
+	}
+
+	&--spacer-gray {
+		background: #eee;
+	}
+
+	&--spacer-darkgray {
+		background: #444;
+	}
+
+	&__img {
+		width: 100%;
+		position: relative;
+		z-index: 1;
+		@include grayscale(100%);
+	}
+	
+	a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 2;
+	}
+
+	a:before {
+		content: ' ';
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.2);
+	}
+
+	h2 {
+		opacity: 0;
+		position: relative;
+	  	top: 50%;
+	  	-webkit-transform: translateY(-50%);
+	  	-ms-transform: translateY(-50%);
+	  	transform: translateY(-50%);
+	  	text-align: center;
+	}
+	
+	h2 img {
+		width: 160px;
+	}
+}
+
+#pekarskystein h2 img,
+#stringamdenecky h2 img {
+	width: 200px;
+}
