@@ -1,5 +1,7 @@
 <?php
-    $url = $_SERVER['REQUEST_URI'];
+    $url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+    $home = 'http://'.$_SERVER['HTTP_HOST'].'/portfolio/';
+
     $projects = array('kokko', 'kenton', 'oakandfort', 'arrivehome', 'pekarskystein', 'stringamdenecky', 'artesia', 'cityofvancouver', 'onegoodidea' );
     $x = array_search($project, $projects);
     $nextproject = $projects[($x +1)];
@@ -7,10 +9,17 @@
 ?>
 
 <nav class="nav" role="navigation">
-    <h1><a href="/m" class="logo">MLicon</a></h1>
+    <h1><a href="<?php echo $home ?>" class="logo">MLicon</a></h1>
 
-    <?php 
-	if ( $url == '/m/') { } elseif ( $url == '/m/index.php') { } else { ?>
+    <div style="font-size:1rem;">
+      <?php echo $url ?> <br/>
+      <?php echo $home ?><br>
+      <?php echo $tex ?><br>
+    </div>
+
+
+    <?php
+	if ( $url == $home) { } elseif ( $url == $home.'index.php') { } else { ?>
 	<ul class="project-nav">
 	    <?php if ($nextproject != '') { ?>
 	    <li class="project-nav__next"><a href="<?php echo $nextproject ?>.php" title="Next"><i class="icon-chevron-right"></i></a></li>
@@ -21,7 +30,7 @@
 	    <?php } ?>
 
 	    <li class="project-nav__index"><a href="index.php" title="View All"><i class="icon-grid"></i></a></li>
-	</ul>  
+	</ul>
 	<?php } ?>
-	
+
 </nav>
