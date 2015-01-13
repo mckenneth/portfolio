@@ -14,7 +14,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 strong {
@@ -136,7 +136,7 @@ strong {
 		z-index: 1;
 		@include grayscale(100%);
 	}
-	
+
 	a {
 		display: block;
 		width: 100%;
@@ -165,7 +165,7 @@ strong {
 	  	transform: translateY(-50%);
 	  	text-align: center;
 	}
-	
+
 	h2 img {
 		width: 160px;
 	}
