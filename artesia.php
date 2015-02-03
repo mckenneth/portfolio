@@ -1,6 +1,6 @@
 <?php
 $project = 'artesia';
-$wallpaper_bg = '#6e5d56';
+$projTitle = 'Artesia';
 include('header.php');
 include('inc/side.php')
 ?>
@@ -8,42 +8,80 @@ include('inc/side.php')
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">
 	<?php include('inc/wallpaper.php') ?>
 
-	<article class="<?php echo $project_class ?>" id="<?php echo $project ?>">	
-		<h2>
-			<img class="<?php echo $project_logo ?>" src="assets/<?php echo $project ?>/<?php echo $project ?>_logo.png">
-		</h2>
-
-		<div class="">
-			<p>Artesia is an award winning Community developed by Heritage Pointe Properties. I was brought on board to build a custom Wordpress CMS site that will provide users an online platform to learn about Artesia in an interactive, informative and engaging way.</p>
-			
-			<p>As a lead developer, I worked closely with the graphic designer and user interface designer to develop an online platform, rich with beautiful contents, advanced features and functionalities.</p>
-
-			<p>One of the main challenges is to implement a responsive community map that provides potential clients and future property owners with up-to-date information about the lots and it's availability through a visual tooltips. Other features implemented are smooth content scrolling, carousel gallery, dynamic sub-menu, customized newsletter system, and blogging platform, filterable by category.!
-			Overall, the website is informative, highly engaging and most importantly, easily manageable.</p>
-		</div>
+	<article class="project" id="<?php echo $project ?>">	
 		
-		<div class="image-frame">
-		<img src="assets/artesia/artesia_001.png">
+		<div class="row--with-border">
+
+			<div class="copy">
+
+				<p>Artesia is an award winning Community developed by Heritage Pointe Properties. I was brought on board to build a custom Wordpress CMS site that will provide users an online platform to learn about Artesia in an interactive, informative and engaging way.</p>
+				
+				<p>As the lead developer, I worked closely with the graphic designer and user interface designer to develop an online platform, rich with beautiful contents, advanced features and functionalities.</p>
+
+				<p>One of the main challenges is to implement a responsive community map that provides potential clients and future property owners with up-to-date information about the lots and it's availability through a visual tooltips. Other features implemented are smooth content scrolling, carousel gallery, dynamic sub-menu, customized newsletter system, and a blogging platform.</p>
+
+				<p>The end result is informative, highly engaging and most importantly, easily manageable for the client.</p>
+			</div>
 		</div>
 
+		<div class="row">
+			<div class="image">
+				<img src="assets/artesia/artesia_001.jpg">
+			</div>
+		</div>
 
+		<div class="row">
+			<div class="image">
+				<img src="assets/artesia/artesia_002.jpg">
+			</div>
+		</div>
 
+		<div class="row">
+			<div class="image">
+				<img src="assets/artesia/artesia_003.jpg">
+			</div>
+		</div>
 
-		<img src="assets/artesia/artesia_002.png">
+		<div class="row">
+			<div class="image image--sm">
+				<img src="assets/artesia/artesia_004.jpg">
+			</div>
+		</div>
 
-		<img src="assets/artesia/artesia_003.png">
+		<div class="row">
+			<div class="image">
+				<img src="assets/artesia/artesia_005.jpg">
+			</div>
+		</div>
 
-		<img src="assets/artesia/artesia_004.png">
+		<div class="row">
+			<div class="image">
+				<img src="assets/artesia/artesia_006.jpg">
+			</div>
+		</div>
 
-		<img src="assets/artesia/artesia_005.png">
+		<div class="row">
+			<div class="image image--sm">
+				<img src="assets/artesia/artesia_007.jpg">
+			</div>
+		</div>
 
-		<img src="assets/artesia/artesia_006.png">
+		<hr class="line">
+		<div class="row">
+			<div class="copy">	
+				<dl>	
+					<dt>Role</dt>
+					<dd>Web Development, Information Architecture</dd>
 
-		<img src="assets/artesia/artesia_007.png">
+					<dt>Launched</dt>
+					<dd>2012</dd>
 
-
-
-		     
+					<dt>Link</dt>
+					<dd><a href="http://liveatartesia.com" target="_blank" title="Artesia">liveatartesia.com</a></dd>
+				</dl>
+			</div>
+		</div>
+	<?php include('inc/pagination.php'); ?>  
 	</article>
 </main>
 <?php include('footer.php') ?>

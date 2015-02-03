@@ -1,6 +1,5 @@
 <?php
 	$project = 'oakandfort';
-	$wallpaper_bg = '#b4b5b7';
 	include('header.php');
 	include('inc/side.php')
 ?>
@@ -9,46 +8,71 @@
 
 		<?php include('inc/wallpaper.php') ?>
 
-		<article class="<?php echo $project_class ?>" id="<?php echo $project ?>"><!-- 	
-			<section class="content-gray">
-			</section>	 -->	
-
-			<h2>
-				<img class="<?php echo $project_logo ?>" src="assets/<?php echo $project; ?>/<?php echo $project ?>_logo.png">
-			</h2>
-
-			<section class="copy">
-				<div class="copy__text">
-			<p>OAK + FORT is a retail brand dedicated to a fused culture of art, fashion and exploration.  The brand offers curated collections of minimal and thoughtfully designed garments for both men and women.  I had the privilege of working with OAK + FORT as an in-house Graphic Designer and Web Developer during the beginning of their establishment in Vancouver and Edmonton.</p>
-
-	     	<p>
-				My work consisted of brand strategy implementation, creative direction, web design and development, including print productions.
-			</p>
-			<p>The company has a strong and clear message and my goal was to implement it prominently on the website. The final product is sleek, clean and approachable that extends the company's core aesthetic and values.</p>
-			</div>
-			</section>
-
-			<div class="image-frame image-frame--cropped">
-			<img src="assets/oakandfort/home_imac.png">
-			</div>
-		        
-
-
-			<div class="frame">
-	        <img src="assets/oakandfort/home_browser.png">
-	        </div>
-
-	        <div class="frame">
-	        <img src="assets/oakandfort/category_browser.png">
-	        </div>
-
-	        <div class="image-frame">
-	        <img src="assets/oakandfort/productzoom_macbook.png">
-	        </div>
+		<article class="project" id="<?php echo $project ?>">
 			
-	
+			<div class="row--with-border">
+				<div class="copy">
+					
+					<p>OAK + FORT is a retail brand dedicated to a fused culture of art, fashion and exploration.  The brand offers curated collections of minimal and thoughtfully designed garments for both men and women.  I had the privilege of working with OAK + FORT as an in-house Graphic designer and Web developer during the beginning of their establishment in Vancouver and Edmonton.</p>
+
+			     	<p>My work consisted of brand strategy implementation, creative direction, web design and development including print productions.
+					</p>
+
+					<p>The company has a strong and clear message and my goal was to implement it prominently on the website. The final product is sleek, clean and approachable that extends the company's core aesthetic and values.</p>
+				</div>
+			</div>
 			
+			<div class="row">
+				<div class="image">
+					<?php showImg('assets/oakandfort/home_imac.jpg'); ?>
+				</div>
+			</div>
+
+			<div class="row alignright">
+				<div class="image" style="margin-right:-40%;">
+					<?php showImg('assets/oakandfort/home_macbook.jpg'); ?>
+				</div>
+			</div>
+		    
+		    <div class="row">
+		        <div class="image">
+		        	<?php showImg('assets/oakandfort/productzoom_macbook.jpg'); ?>
+		        </div>
+		    </div>
+
+			<div class="row">
+				<div class="image browser">
+		        	<?php showImg('assets/oakandfort/home_browser.jpg'); ?>
+		        </div>
+		    </div>
+
+		    <div class="row">
+		        <div class="image browser">
+		        	<?php showImg('assets/oakandfort/category_browser.jpg'); ?>
+		        </div>
+		    </div>
+
+		    <div class="row">
+		        <div class="image browser">
+		        	<?php showImg('assets/oakandfort/product_browser.jpg'); ?>
+		        </div>
+		    </div>
+
+		    
+			
+			<hr class="line">
+			<div class="row">
+				<div class="copy">	
+					<dl>	
+						<dt>Roles</dt>
+						<dd>Art direction &amp; design, User interface, Development</dd>
+
+						<dt>Launched</dt>
+						<dd>2011</dd>
+					</dl>
+				</div>
+			</div>	
+		<?php include('inc/pagination.php'); ?>  
 		</article>
 	</main>
-
 <? include('footer.php') ?>

@@ -1,16 +1,20 @@
-<nav class="pagination">
-  <?php 
-if ( $url == '/m/') { } elseif ( $url == '/m/index.php') { } else { ?>
-<ul class="project-nav">
-    <?php if ($nextproject != '') { ?>
-    <li class="project-nav__next"><a href="<?php echo $nextproject ?>.php" title="Next"><i class="icon-chevron-right"></i></a></li>
-    <?php } ?>
+<!-- if home, don't show navigation  -->
 
-    <?php if ($prevproject != '') { ?>
-    <li class="project-nav__prev"><a href="<?php echo $prevproject ?>.php" title="Previous"><i class="icon-chevron-left"></i></a></li>
-    <?php } ?>
+<div class="row">
+    <span class="scrollUp" id="scroll-to-top">Top &uarr;</span>
+</div>
 
-    <li class="project-nav__index"><a href="index.php" title="View All"><i class="icon-grid"></i></a></li>
-</ul>  
+<?php if (($url !== $home) || ($url !== $home.'index.php'))  { ?>
+
+    <ul class="project-nav">
+    	<li class="project-nav__btn project-nav__btn--index"><a class="project-nav__link pageExit" href="<?php echo $home ?>" title="View All"><i class="icon-photos-outline"></i></a></li>
+	
+		<?php if ($prevproject != '') { ?>
+        <li class="project-nav__btn"><a class="project-nav__link project-nav__link--prev pageExit" href="<?php echo $prevproject ?>" title="Previous"><i class="icon-chevron-left"></i></a></li>
+        <?php } ?>
+
+        <?php if ($nextproject != '') { ?>
+        <li class="project-nav__btn"><a class="project-nav__link project-nav__link--next pageExit" href="<?php echo $nextproject ?>" title="Next"><i class="icon-chevron-right"></i></a></li>
+        <?php } ?> 
+    </ul>
 <?php } ?>
-</nav>
