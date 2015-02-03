@@ -6,6 +6,7 @@
 	left: 0;
 	height: 100vh;
 	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
 	font-size: 1.4rem;
 	line-height: 1.4em;
 }

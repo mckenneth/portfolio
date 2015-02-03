@@ -375,7 +375,8 @@ html {
 
 body {
   margin: 0;
-  background: #ececec; }
+  background: #ececec;
+  -webkit-overflow-scrolling: touch; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -687,6 +688,7 @@ blockquote {
     position: fixed;
     top: 0;
     right: 100px !important;
+    width: 100%;
     background: blue;
     overflow: hidden; }
   .wallpaper__image {
@@ -921,6 +923,7 @@ blockquote {
   left: 0;
   height: 100vh;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   font-size: 1.4rem;
   line-height: 1.4em; }
 
@@ -992,10 +995,7 @@ blockquote {
     margin: 6rem 6rem 6rem 8rem; }
 
   .content {
-    margin: 0 100px 0 10%; }
-
-  .wallpaper {
-    background: pink; } }
+    margin: 0 100px 0 10%; } }
 /* -----------------  [ M O B I L E ] ----------------- */
 @media (max-width: 480px) {
   .item, .item--spacer, .item--spacer--gray {

@@ -9,7 +9,8 @@ $(function() {
 		window.location = newLocation;
 	}
 			
-	function slideOutMain() {	
+	function slideOutMain() {
+		$('.global-nav__link').children('i').removeClass('icon-information').addClass('icon-close-empty');
 		$('.main').velocity({translateX: "-90%"}, 'easeOut', 400);
 		$('.main__cover').css({'z-index':'100'}).delay(400).velocity({opacity:0.2});
 		$('.content__col').delay(400).velocity('transition.slideDownIn', { stagger: 240 }, 1200);
@@ -18,6 +19,7 @@ $(function() {
 	}
 
 	function slideInMain() {
+		$('.global-nav__link').children('i').removeClass('icon-close-empty').addClass('icon-information');
 		$('.main').velocity({translateX: "0"}, 'easeOut', 400);
 		$('.main__cover').velocity({opacity:0}).css({'z-index':'0'});
 		$('.content__col').delay(400).fadeOut(0);
@@ -94,20 +96,16 @@ $(function() {
 
 	$('#about').on('click', function () {
 	    if (showContent == false) {		
-	    	$(this).children('i').removeClass('icon-information').addClass('icon-close-empty');
+	   	
 	    	slideOutMain();
 	    	$('.main__cover').on('click', function () {
 			   $('.global-nav__link').children('i').removeClass('icon-close-empty').addClass('icon-information');
 			   slideInMain();
 			});
-			// window.history.pushState("object or string", "Title", "about");	
 			return false;
 
 	    } else {
 	    	slideInMain();
-	    	$(this).children('i').removeClass('icon-close-empty').addClass('icon-information');
-
-	    	// window.history.back();
 	    	return false;
 	    }
 	});	
