@@ -1,7 +1,7 @@
 $(function() {
 
 	/// --------- V A R I A B L E S  ---------- ///
-
+	var vh = $(window).height();
 	var showContent = false;
 
 	/// --------- F U N C T I O N S  ---------- ///
@@ -11,7 +11,8 @@ $(function() {
 			
 	function slideOutMain() {
 		$('.global-nav__link').children('i').removeClass('icon-information').addClass('icon-close-empty');
-		$('.main').velocity({translateX: "-90%"}, 'easeOut', 400);
+		$('.main').velocity({translateX: "-90%"}, 'easeOut', 400)
+		.css({'height':vh,'overflow':'hidden'});
 		$('.main__cover').css({'z-index':'100'}).delay(400).velocity({opacity:0.2});
 		$('.content__col').delay(400).velocity('transition.slideDownIn', { stagger: 240 }, 1200);
 		showContent = true;
