@@ -1,0 +1,86 @@
+// .main { display: none; }
+.content-holder {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	overflow: scroll;
+	font-size: 1.4rem;
+	line-height: 1.4em;
+}
+
+.content {
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 8rem 6rem;
+	box-sizing: content-box;
+	@include clearfix;
+
+	a, a:link, a:visited {
+		text-decoration: none;
+		color: #666;
+		border-bottom: 1px solid #ccc;
+		@include trans(200ms);
+
+		&:hover {
+			border-bottom: 1px solid #fff;
+			color: #fff;
+		}
+	}
+
+	.title {
+		font-size: 2.4rem;
+		font-weight: 500;
+		color: #000;
+		opacity: 0.2;
+		margin-bottom: 2rem;
+	}
+}
+
+.content__col {
+	// border-right: 1px solid #ccc;
+	// border-left: 1px solid #fff;
+	float: left;
+	display: block;
+	width: 100%;
+	opacity: 0;
+	box-sizing: border-box;
+
+	&--about {
+		@extend .content__col;
+		width: 100%;
+		border-left: 0;
+		font-size: 2rem;
+		line-height: 1.6em;
+		margin: 0 auto;
+		padding-bottom: 8rem;
+	}
+
+	&--experience {
+		@extend .content__col;
+		color: #888;
+	}
+
+	&--contact {
+		@extend .content__col;
+		padding-bottom: 12rem;
+	}
+
+	dd {
+		margin-bottom: 2rem;
+	}
+
+	.employer {
+		font-weight: 600;
+		font-size:1.4rem;
+
+		a, a:link, a:visited {
+			border:0;
+		}
+
+		a:hover {
+			border-bottom: 1px solid #fff;
+		}
+	}
+}

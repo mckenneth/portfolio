@@ -1,42 +1,76 @@
 <?php
-$project = 'arrivehome';
-$wallpaper_bg = '#a3ac3a';
-include('header.php');
-include('inc/side.php')
+	$project = 'arrivehome';
+	include('header.php');
+	include('inc/side.php')
 ?>
 
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">
 	<?php include('inc/wallpaper.php') ?>
 
-	<article class="<?php echo $project_class ?>" id="<?php echo $project ?>">	
-		<h2>
-			<img class="<?php echo $project_logo ?>" src="assets/<?php echo $project ?>/<?php echo $project ?>_logo.png">
-		</h2>  
+	<article class="project" id="<?php echo $project ?>">	
+		
+		<div class="row--with-border">
+			<div class="copy">
+				
+				<p>Arrive is a Calgary-based home development company known for their energy conscious building techniques. Devoted to environmental friendly practices, Arrive uses green materials and pushes for energy and water saving features in their home designs.</p>
 
-		<div class="">
+				<p>I was hired to develop a custom Wordpress site for Arrive, with an intuitive backend system to manage custom content types.</p>
 
-Arrive is a Calgary-based home development company known for their energy conscious building techniques. Devoted to environmental friendly practices, Arrive uses green materials and pushes for energy and water saving features in their home designs. I was approached by the project manager to develop a custom Wordpress site for Arrive on an absolute emergency situation.!
+				<p>The result is a fully functional and easily manageable website with a sophisticated backend that the client was very pleased with.</p>				
+			</div>
+		</div>
 
-The previous developer had become unresponsive mid-way through the project. Afraid the project will not be launched on time, I was brought on board by the team to salvage the project and to shape it to completion within a week.!
+		<div class="row">
+			<div class="image">
+				<?php showImg('assets/arrivehome/arrivehome_001.jpg'); ?>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="image image--lg image--cropped">
+				<div class="cropped">
+				<?php showImg('assets/arrivehome/arrivehome_002.jpg'); ?>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row row--alignleft">
+			<div class="image" style="margin-left:-20%;">
+				<?php showImg('assets/arrivehome/arrivehome_003.jpg'); ?>
+			</div>
+		</div>	
+		
+		<div class="row">
+			<div class="image">
+				<?php showImg('assets/arrivehome/arrivehome_004.jpg'); ?>
+			</div>
+		</div>	
 
-The challenging part is taking over the project without communication and/or documentations from the previous developer. Upon examining the current state of the project, I've decided that starting over is the better solution in moving forward.!
-!
-With very little time, I made use of HTML5 boilerplate to kick off the project, and then utilized a blank Wordpress starter theme to speed up the development.!
-!
-The result is a fully functional, mobile-ready and easily manageable Wordpress website that both the team and the client are happy with. The project was completed in time for its scheduled launch.!
-</div>
+		<div class="row">
+			<div class="image browser">
+				<?php showImg('assets/arrivehome/arrivehome_index.jpg'); ?>
+			</div>
+		</div>
 
+		<hr class="line">
+		<div class="row">
+			<div class="copy">	
+				<dl>	
+					<dt>Roles</dt>
+					<dd>Front-end Development, CMS Integration</dd>
 
-<img src="assets/arrivehome/arrivehome_001.png">
+					<!-- <dt>Credits</dt>
+					<dd><a href="http://crystaloicle.com/">Art Direction &amp; Design: Crystal Oicle</a></dd> -->
 
-<img src="assets/arrivehome/arrivehome_002.png">
+					<dt>Launched</dt>
+					<dd>2013</dd>
 
-<img src="assets/arrivehome/arrivehome_003.png">
-
-<img src="assets/arrivehome/arrivehome_004.png">
-
-	
-		   
+					<dt>Link</dt>
+					<dd><a href="http://arrivehome.ca" target="_blank" title="Arrive Home">arrivehome.ca</a></dd>
+				</dl>
+			</div>
+		</div>
+	<?php include('inc/pagination.php'); ?>  
 	</article>
-</main>	
+</main>
 <?php include('footer.php') ?>

@@ -1,8 +1,7 @@
 <? include('header.php') ?>
-
 	<? include('inc/side.php') ?>
+	<main role="main" class="main" id="master">
 	
-	<main role="main" class="main">
 		<section class="intro">
 			<h2 class="intro__text">
 		        <strong>Hello</strong>. Bonjour.<br />
@@ -10,79 +9,98 @@
 		        I'm a Graphic Designer &amp; <br/>
 		        Web Developer
 	        </h2>
+	        <!-- <a class="button button-projects">projects<span class="arrow--down"></span></a>
+	        <div class="logo--big"><img src="data:image/svg+xml;base64,<?php echo $logo_svg; ?>" width="1000"></div> -->
 	    </section>
 
 	    <!-- item grid -->
-		<section class="projects">
-    		
+		<section class="projects" id="projGrid">
     		<article class="item" id="kokko">
-	    		<a href="kokko.php" title="Kokko">
-	    			<h2>KOKKO<img src="assets/kokko/kokko_logo_w.png"></h2>    			
+	    		<a class="item__link" href="kokko">
+	    			<h2 class="item__header">
+	    				<img class="item__logo" src="assets/kokko/kokko_logo_w.png" alt="KOKKO">
+	    			</h2>
 	    		</a>
-	    		<img class="item__img" class="item__img" src="assets/kokko/kokko_cover.jpg">
+	    		<img class="item__img" src="assets/kokko/kokko_cover.jpg" width="400" height="300">
     		</article>
 
-	    	<div class="item item--spacer item--spacer-gray">
-	    		<img class="item__img" src="img/spacer.png">
+	    	<div class="item--spacer--gray">
+	    		<img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer">
 	    	</div> 
 
     		<article class="item" id="kenton">
-	    		<a href="kenton.php">
-	    			<h2>Kenton<img src="assets/kenton/kenton_logo_w.png"></h2>
+	    		<a class="item__link" href="kenton">
+	    			<h2 class="item__header"><img class="item__logo" src="assets/kenton/kenton_logo_w.png" alt="Kenton"></h2>
 	    		</a>
-	    		<img class="item__img" src="assets/kenton/kenton_cover.jpg">
+	    		<img class="item__img" src="assets/kenton/kenton_cover.jpg" width="400" height="300">
     		</article> 
 
-    		<div class="item item--spacer">
-    			<img class="item__img" src="img/spacer.png">
+    		<div class="item--spacer">
+    			<img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer">
     		</div>   		
 
     		<article class="item" id="oakandfort">
-	    		<a href="oakandfort">
-	    			<h2>Oak + Fort<img src="assets/oakandfort/oakandfort_logo_w.png"></h2>
+	    		<a class="item__link" href="oakandfort">
+	    			<h2 class="item__header">
+	    				<img class="item__logo" src="assets/oakandfort/oakandfort_logo_w.png" alt="Oak + Fort">
+	    			</h2>
 	    		</a>
-	    		<img class="item__img" src="assets/oakandfort/oakandfort_cover.jpg">
+	    		<img class="item__img" src="assets/oakandfort/oakandfort_cover.jpg" width="400" height="300">
     		</article> 
     		<article class="item" id="arrivehome">
-	    		<a href="arrivehome.php">
-	    			<h2>Arrive Home<img src="assets/arrivehome/arrivehome_logo_w.png"></h2>
+	    		<a class="item__link" href="arrivehome">
+	    			<h2 class="item__header">
+	    				<img class="item__logo" src="assets/arrivehome/arrivehome_logo_w.png" alt="Arrive Home">
+	    			</h2>
 	    		</a>
-	    		<img class="item__img" src="assets/arrivehome/arrivehome_cover.jpg">
+	    		<img class="item__img" src="assets/arrivehome/arrivehome_cover.jpg" width="400" height="300">
     		</article> 
-    		<article class="item" id="pekarskystein">
-	    		<a href="pekarskystein">
-	    			<h2>Pekarsky Stein<img src="assets/pekarskystein/pekarskystein_logo_w.png"></h2>
-	    		</a>
-	    		<img class="item__img" src="assets/pekarskystein/pekarskystein_cover.jpg">
-    		</article> 
-    		<article class="item" id="stringamdenecky">
-	    		<a href="stringamdenecky.php">
-	    			<h2>Stringam Denecky<img src="assets/stringamdenecky/stringamdenecky_logo_w.png"></h2>
-	    		</a>
-	    		<img class="item__img" src="assets/stringamdenecky/stringamdenecky_cover.jpg">
-    		</article> 
-    		<div class="item item--spacer"><img class="item__img" src="img/spacer.png"></div>
-    		<div class="item item--spacer"><img class="item__img" src="img/spacer.png"></div>
-    		<div class="item item--spacer item--spacer-darkgray"><img class="item__img" src="img/spacer.png"></div>
     		<article class="item" id="artesia">
-	    		<a href="artesia.php">
-	    			<h2>Artesia<img src="assets/artesia/artesia_logo_w.png"></h2>
+	    		<a class="item__link" href="artesia">
+	    			<h2 class="item__header">
+	    				<img class="item__logo" src="assets/artesia/artesia_logo_w.png" alt="Artesia">
+	    			</h2>
 	    		</a>
-	    		<img class="item__img" src="assets/artesia/artesia_cover.jpg">
+	    		<img class="item__img" src="assets/artesia/artesia_cover.jpg" width="400" height="300">
     		</article> 
-    		<article class="item" id="cityofvancouver">
-	    		<a href="cov.php">
-	    			<h2>City of Vancouver<img src="assets/cityofvancouver/cityofvancouver_logo_w.png"></h2>
+
+    		<article class="item" id="pekarskystein">
+	    		<a class="item__link" href="pekarskystein">
+	    			<h2 class="item__header">
+	    				<img class="item__logo" src="assets/pekarskystein/pekarskystein_logo_w.png" alt="Pekarsky Stein">
+	    			</h2>
 	    		</a>
-	    		<img class="item__img" src="assets/cityofvancouver/cityofvancouver_cover.jpg">
+	    		<img class="item__img" src="assets/pekarskystein/pekarskystein_cover.jpg" width="400" height="300">
+    		</article> 
+    		
+    		<div class="item item--spacer"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
+    		<div class="item item--spacer"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
+    		<div class="item--spacer--gray"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
+
+			<article class="item" id="stringamdenecky">
+	    		<a class="item__link" href="stringamdenecky">
+	    			<h2 class="item__header">
+	    				<img class="item__logo" src="assets/stringamdenecky/stringamdenecky_logo_w.png" alt="Stringam Denecky">
+	    			</h2>
+	    		</a>
+	    		<img class="item__img" src="assets/stringamdenecky/stringamdenecky_cover.jpg" width="400" height="300">
+    		</article> 
+
+    		
+    		<article class="item" id="cityofvancouver">
+	    		<a class="item__link" href="cityofvancouver">
+	    			<h2 class="item__header">
+	    				<img class="item__logo" src="assets/cityofvancouver/cityofvancouver_logo_w.png" alt="City of Vancouver">
+	    			</h2>
+	    		</a>
+	    		<img class="item__img" src="assets/cityofvancouver/cityofvancouver_cover.jpg" width="400" height="300">
     		</article> 
     		<article class="item" id="onegoodidea">
-	    		<a href="onegoodidea.php">
-	    			<h2>One Good Idea<img src="assets/onegoodidea/onegoodidea_logo_w.png"></h2>
+	    		<a class="item__link" href="onegoodidea">
+	    			<h2 class="item__header"><img class="item__logo" src="assets/onegoodidea/onegoodidea_logo_w.png" alt="One Good Idea"></h2>
 	    		</a>
-	    		<img class="item__img" src="assets/onegoodidea/onegoodidea_cover.jpg">
+	    		<img class="item__img" src="assets/onegoodidea/onegoodidea_cover.jpg" width="400" height="300">
     		</article> 	
     		<div class="clear"></div>	
 		</section>
-	</main>
 <? include('footer.php') ?>

@@ -1,5 +1,19 @@
+// @font-face {
+//   font-family: 'proxima-nova';
+//   src: url(../fonts/ProximaNova-Regular.otf) format('opentype');
+// }
+
+// @font-face {
+//    font-family: 'proxima-nova';
+//       src: url(../fonts/ProximaNova-Light.otf) format('opentype');
+//    font-weight: 200;
+//    font-style: normal;
+// }
+
+
 body {
-	font: 1.8em/1.6em "proxima-nova", Arial, sans-serif;
+	font: 1.4em / 1.45em $primary;
+	color: $text-color;
 }
 
 h1 {
@@ -34,8 +48,19 @@ u {
 	border-bottom:0.2em solid #eee;
 }
 
-a { 
-	text-decoration: none;
+.copy {
+
+	a {
+		text-decoration: none;
+		color: $textlink;
+		border-bottom: 1px solid #eee;
+		@include trans(200ms);
+	}
+
+	a:hover {
+		border-bottom: 1px solid #888;
+	}
+
 }
 
 blockquote {
@@ -60,7 +85,6 @@ blockquote {
 		padding:2rem;
 	}
 }
-
 
 .smaller {
 	font: 1.4rem/1.45em "proxima-nova", Arial, sans-serif;

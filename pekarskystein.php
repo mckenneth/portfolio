@@ -7,34 +7,58 @@ include('inc/side.php');
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">
 	<?php include('inc/wallpaper.php') ?>
 
-	<article class="<?php echo $project_class ?>" id="<?php echo $project ?>">	
-		<h2>
-			<img class="<?php echo $project_logo ?>" src="assets/<?php echo $project; ?>/<?php echo $project ?>_logo.png">
-		</h2>
+	<article class="project" id="<?php echo $project ?>">	
+	
+		<div class="row--with-border">
+			<div class="copy">
+				<p>Pekarsky Stein is Western Canada's leading boutique job search firm. In collaboration with <a href="http://foundrycommunications.ca" target="_blank" title="Foundry Communications">Foundry Communications</a> and <a href="http://brightaidestudios.ca" target="_blank" title="Brightside Studios">Brightside Studios</a>, I was commissioned to develop a custom Wordpress site with a fully integrated job posting board.</p>
+				
+				<p>The website contains a several cwontent types and the goal was to create a backend that will make contents easily manageable by the client after deployment. Furthermore, Pekarsky Stein also features a fully functional job posting board.</p>
 
-		<div class="">
-		Pekarsky Stein is Western Canada's leading boutique job search firm. In collaboration with Foundry Communications and Brightside Studios, I was commissioned to develop a custom Wordpress site with a fully integrated job posting board.!
-!
-The challenge: Create a sophisticated backend for the website with all different types of content easily manageable by the client after deployment. I must also develop a job posting board including individual page for each posting, as well as a function for users to easily submit their applications directly to a specific recruiter.!
-My approach was to first identify all the different types of content the website will have: Client's testimonial, team member's profile page, blog post and job opportunity. Next is differentiation and establishment of information.!
-!
-The final result is a customized Wordpress site with fully manageable contents. The job board features filterable data and responsive tables for seamless desktop-to-mobile browsing.!
-</div>
-
-		<div class="image-frame">
-			<img src="assets/pekarskystein/pekarskystein_001.png">
+				<p>The final result is a customized Wordpress site with fully manageable contents. The job board features filterable data and responsive tables for seamless desktop-to-mobile browsing.</p>
+			</div>
 		</div>
 
-		<img src="assets/pekarskystein/pekarskystein_002.png">
+		<div class="row">
+			<div class="image">
+				<?php showImg('assets/pekarskystein/pekarskystein_001.jpg'); ?>
+			</div>
+		</div>
 
-		<img src="assets/pekarskystein/pekarskystein_003.png">
+		<div class="row">
+			<div class="image">
+				<?php showImg('assets/pekarskystein/pekarskystein_002.jpg'); ?>
+			</div>
+		</div>
+			
+		<div class="row">
+			<div class="image">
+				<?php showImg('assets/pekarskystein/pekarskystein_003.jpg'); ?>
+			</div>
+		</div>
 
-		<img src="assets/pekarskystein/pekarskystein_004.png">
+		<div class="row">
+			<div class="image image--sm">
+				<?php showImg('assets/pekarskystein/pekarskystein_006.jpg'); ?>
+			</div>
+		</div>
 
-		<img src="assets/pekarskystein/pekarskystein_005.png">
+		<hr class="line">
+		<div class="row">
+			<div class="copy">	
+				<dl>	
+					<dt>Roles</dt>
+					<dd>Web development, CMS Implementation</dd>
 
-		<img src="assets/pekarskystein/pekarskystein_006.png">
+					<dt>Launched</dt>
+					<dd>2012</dd>
 
+					<dt>Link</dt>
+					<dd><a href="http://pekarskystein.com" target="_blank" title="Pekarsky Stein">pekarskystein.com</a></dd>
+				</dl>
+			</div>
+		</div>
+	<?php include('inc/pagination.php'); ?>  
 	</article>
 </main>
 <?php include('footer.php') ?>

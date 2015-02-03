@@ -4,36 +4,68 @@
 	include('inc/side.php')
 ?>
 
-	<main role="main" class="main main--portfolio <?php echo $main_class ?>">
-
+	<main role="main" class="main main--portfolio">
+		
 		<?php include('inc/wallpaper.php') ?>
 
-		<article class="<?php echo $project_class ?>" id="<?php echo $project ?>">	
-			<h2>
-				<img class="<?php echo $project_logo ?>" src="assets/<?php echo $project ?>/<?php echo $project ?>_logo.png">
-			</h2>
-		
-	        <p class="lead">KENTON magazine is a leading, global online fashion and lifestyle magazine for young, professional men and women. Bringing readers to the forefront of fashion, culture and society, KENTON magazine delivers original content from an industry insider’s perspective.</p>
+		<article class="project" id="<?php echo $project ?>">
 
-	        <p>After years of successful online publishing, KENTON magazine needed a redesign.  I was presented with the initial design concept and was brought on board to develop a new and improved website.  The challenge:  The design were only in desktop and it was fully up to me to take the initial design and re-imagine it for tablet and mobile browsing experience.</p>  
+			<div class="row--with-border">
+				<div class="copy">
+		        <p>KENTON magazine is a leading global online fashion and lifestyle magazine for young professionals.  To celebrate a year of successful online publishing, I was commissioned to help redesign their website.</p>
 
-			<p>The process was both challenging and fulfilling.  KENTON was relaunched with a refreshed visual design, sophisticated backend technology and sleek user interface for a modern, mobile audience.</p>
+				<p>KENTON was relaunched with a refreshed visual design, sophisticated backend technology and a sleek user interface, re-imagined for a modern and mobile audience.</p>
+				</div>
+			</div>
 
 
+	        <div class="row">
+	        	<div class="image">
+	        		<?php showImg('assets/kenton/kenton_001.jpg'); ?>
+	        	</div>
+	        </div>
 	        
-			<div class="image-frame">
-	        <img src="assets/kenton/kenton_001.png">
+			<div class="row">
+				<div class="image image--lg">
+	        		<?php showImg('assets/kenton/kenton_002.jpg'); ?>
+	        	</div>
+	        </div>
+			
+			<div class="row">
+				<div class="image image--md">
+	        		<?php showImg('assets/kenton/kenton_003.jpg'); ?>
+	        	</div>
 	        </div>
 
-	        <img src="assets/kenton/kenton_002.png">
-
-	        <img src="assets/kenton/kenton_003.png">
-
-	        <div class="frame">
-	        	<img src="assets/kenton/kenton_000.png">
+	        <div class="row--left">
+				<div class="image image--md">
+	        		<?php showImg('assets/kenton/kenton_004.jpg'); ?>
+	        	</div>
 	        </div>
 
-			    
+	        <div class="row">
+	        	<div class="image browser">
+	        		<?php showImg('assets/kenton/kenton_000.jpg'); ?>
+	        	</div>
+	        </div>
+	
+
+	        <hr class="line">
+			<div class="row">
+				<div class="copy">	
+					<dl>	
+						<dt>Roles</dt>
+						<dd>Responsive Web Design, CMS Integration/Development</dd>
+
+						<dt>Launched</dt>
+						<dd>2013</dd>
+
+						<dt>Link</dt>
+						<dd><a href="http://kentonmagazine.com" target="_blank" title="Kenton Magazine">kentonmagazine.com</a></dd>
+					</dl>
+				</div>
+			</div>
+		<?php include('inc/pagination.php'); ?>  
 		</article>
 	</main>
 <?php include('footer.php') ?>

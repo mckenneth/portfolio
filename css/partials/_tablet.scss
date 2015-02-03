@@ -1,0 +1,41 @@
+@media (max-width: 1023px) {
+	.item {
+		width: 50%;
+
+		&--spacer, &--spacer--gray {
+			display: none;
+		}
+	}
+
+	.intro {
+		.intro__text {
+			margin: 6rem 6rem 6rem 8rem;
+		}
+	}
+
+	.content {
+		margin: 0 100px 0 10%;
+	}
+	
+	.wallpaper {
+		background: pink;
+
+		&__image-holder {
+		
+		}
+
+		&__image {
+		
+		}
+
+		.project-logo {
+
+
+			img {
+	
+			}
+		}
+	}
+
+}
+
