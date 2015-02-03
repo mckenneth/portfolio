@@ -972,7 +972,8 @@ blockquote {
     margin: 0 auto;
     padding-bottom: 8rem; }
   .content__col--experience {
-    color: #888; }
+    color: #888;
+    margin-bottom: 6rem; }
   .content__col--contact {
     padding-bottom: 12rem; }
   .content__col dd, .content__col--about dd, .content__col--experience dd, .content__col--contact dd {
