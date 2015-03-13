@@ -97,6 +97,69 @@ $(function() {
 		});
 	});
 
+	// /* determines the screen before fetching imgres */
+	// function imgres() {
+	// 	if (screenW <= 320) {
+	// 		var imgres = 's';
+			
+	// 	} else if (screenW <= 768) {
+	// 		var imgres = 'm';
+		
+	// 	} else if (screenW >= 1200) {
+	// 		var imgres = 'l';
+	// 	}
+	// }
+
+
+	//---------- [ KEY DOWNS ] -----------//
+	// $(document).keydown(function(e) {
+	//     switch(e.which) {
+	//         case 74: // J
+	//         toPrevproj();
+	//         break;
+
+	//         case 75: // K
+ //        	scrolltoProj();
+ //       		break;
+
+	//         case 76: // L
+         
+ //        	break;
+
+	//         case 73: // I
+	//         scrollto();
+	//         break;
+
+	//         case 72: // H - home
+	//         	goto(home);
+	//         break;
+
+	//         case 77: // M - About
+	//         	if (about == false) {
+	//         		slideOutMain();
+	//         	} else {
+	//         		slideInMain();
+	//         	}
+	//         break;
+
+	//         case 27: // esc - exit
+	//         	slideInMain()
+	//         break;
+
+	//         case 83: // S - Style Guide
+	//         	goto('styleguide');
+
+	//         break;
+
+	//         case 84: // T - test
+	//         	alert ( curl + ' and '+ home)
+	//         break;
+
+	//         default: return; // exit this handler for other keys
+	//     }
+	//     e.preventDefault(); // prevent the default action (scroll / move caret)
+	// });
+
 //  	$('body').append( "<button id='btn-grid'>Grid Projects</button>");
 //  	$('#btn-grid').on('click', function () {
 //     $('body').toggleClass('ts24');

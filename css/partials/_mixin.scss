@@ -39,13 +39,30 @@
 
 // Vendor prefixer
 @mixin prefix($name,$argument) {
-   -webkit-#{$name}: #{$argument};
+  -webkit-#{$name}: #{$argument};
   -ms-#{$name}: #{$argument};
   -moz-#{$name}: #{$argument};
   -o-#{$name}: #{$argument};
   #{$name}: #{$argument};
 }
-  
+
+@mixin opacity($x) {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="#{($x*100)}")";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=#{($x*100)});
+
+  /* Netscape */
+  -moz-opacity: $x;
+
+  /* Safari 1.x */
+  -khtml-opacity: $x;
+
+  /* Good browsers */
+  opacity: $x;
+}
+
 @mixin border-radius($tl, $tr, $bl, $br) {
    -webkit-border-top-left-radius: $tl;
    -webkit-border-top-right-radius: $tr;

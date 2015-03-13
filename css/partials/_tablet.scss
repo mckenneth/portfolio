@@ -1,4 +1,11 @@
 @media (max-width: 1023px) {
+
+	.intro {
+		.intro__text {
+			margin: 6rem 6rem 6rem 8rem;
+		}
+	}
+
 	.item {
 		width: 50%;
 
@@ -7,34 +14,23 @@
 		}
 	}
 
-	.intro {
-		.intro__text {
-			margin: 6rem 6rem 6rem 8rem;
-		}
+	.row {
+		padding: 8rem 0;
 	}
 
 	.content {
 		margin: 0 100px 0 10%;
 	}
-	
-	.wallpaper {
-
-		&__image-holder {
-		
-		}
-
-		&__image {
-		
-		}
-
-		.project-logo {
-
-
-			img {
-	
-			}
-		}
-	}
-
 }
 
+@media (max-width: 768px) {
+	
+	.copy {
+		font-size: 1.6rem;
+		padding: 0rem 10rem;
+	}
+
+	.image {
+		padding: 10%;
+	}
+}

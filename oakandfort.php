@@ -8,8 +8,7 @@
 
 		<?php include('inc/wallpaper.php') ?>
 
-		<article class="project" id="<?php echo $project ?>">
-			
+		<article class="project" id="project--<?php echo $project; ?>">
 			<div class="row--with-border">
 				<div class="copy">
 					
@@ -19,50 +18,9 @@
 					</p>
 
 					<p>The company has a strong and clear message and my goal was to implement it prominently on the website. The final product is sleek, clean and approachable that extends the company's core aesthetic and values.</p>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="image">
-					<?php showImg('assets/oakandfort/home_imac.jpg'); ?>
-				</div>
-			</div>
 
-			<div class="row alignright">
-				<div class="image" style="margin-right:-40%;">
-					<?php showImg('assets/oakandfort/home_macbook.jpg'); ?>
-				</div>
-			</div>
-		    
-		    <div class="row">
-		        <div class="image">
-		        	<?php showImg('assets/oakandfort/productzoom_macbook.jpg'); ?>
-		        </div>
-		    </div>
 
-			<div class="row">
-				<div class="image browser">
-		        	<?php showImg('assets/oakandfort/home_browser.jpg'); ?>
-		        </div>
-		    </div>
-
-		    <div class="row">
-		        <div class="image browser">
-		        	<?php showImg('assets/oakandfort/category_browser.jpg'); ?>
-		        </div>
-		    </div>
-
-		    <div class="row">
-		        <div class="image browser">
-		        	<?php showImg('assets/oakandfort/product_browser.jpg'); ?>
-		        </div>
-		    </div>
-
-		    
-			
-			<hr class="line">
-			<div class="row">
-				<div class="copy">	
+					<hr class="hr--mini"/>
 					<dl>	
 						<dt>Roles</dt>
 						<dd>Art direction &amp; design, User interface, Development</dd>
@@ -71,8 +29,45 @@
 						<dd>2011</dd>
 					</dl>
 				</div>
-			</div>	
-		<?php include('inc/pagination.php'); ?>  
+			</div>
+			
+			<div class="row">
+				<div class="image">
+					<img class="showImg lazy" src="img/spacer.gif" data-original="assets/oakandfort/home_imac.jpg">
+				</div>
+			</div>
+
+			<div class="row alignright">
+				<div class="image" style="margin-right:-40%;">
+					<img class="showImg lazy" src="img/spacer.gif" data-original="assets/oakandfort/home_macbook.jpg">
+				</div>
+			</div>
+		    
+		    <div class="row">
+		        <div class="image">
+		        	<img class="showImg lazy" src="img/spacer.gif" data-original="assets/oakandfort/productzoom_macbook.jpg">
+		        </div>
+		    </div>
+
+			<div class="row">
+				<div class="image browser">
+		        	<img class="showImg lazy" src="img/spacer.gif" data-original="assets/oakandfort/home_browser.jpg">
+		        </div>
+		    </div>
+
+		    <div class="row">
+		        <div class="image browser">
+		        	<img class="showImg lazy" src="img/spacer.gif" data-original="assets/oakandfort/category_browser.jpg">
+		        </div>
+		    </div>
+
+		    <div class="row">
+		        <div class="image browser">
+		        	<img class="showImg lazy" src="img/spacer.gif" data-original="assets/oakandfort/product_browser.jpg">
+		        </div>
+		    </div>
+
+			<?php include('inc/scrollup.php') ?>
 		</article>
 	</main>
 <? include('footer.php') ?>

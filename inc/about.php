@@ -1,18 +1,14 @@
-<div class="content-holder">
 <div class="content">
 	<div class="content__col content__col--about">
-		<p>I'm a cross-disciplinary graphic designer &amp; web developer who specializes in eCommerce and front-end development.</p>
+		<p>I'm a cross-disciplinary graphic designer and web developer, specializing in eCommerce and front-end development.</p>
 
-		<p>I graduated from Capilano University's Interactive Design program, followed by an internship at <a href="http://iondesign.ca" target="_blank">Ion Brand Design</a>.  Shortly after, I've taken various positions and roles working for small companies: starting out as an in-house graphic designer and ecommerce developer, I went on to take a bigger role as an art director.</p>
+		<p>I graduated from Capilano University's Interactive Design program, followed by an internship at <a href="http://iondesign.ca" target="_blank">Ion Brand Design</a>.  Shortly after, I've taken various positions and roles at small companies: starting out as an in-house graphic designer and ecommerce developer, I went on to take a bigger role as an art director.</p>
 
-		<p>While I'm equipped with a vast skillset, my greatest expertise revolve in the worlds of interaction design, user experience, brand identity and art direction.</p>
-
-		<p class="hide">I also have a great appreciation for typography, minimalism and a well-used white space.</p>  
-
+		<p>In addition to my vast skill set, my interests revolve in the worlds of interaction design, user experience, brand identity and art direction.</p>
 	</div>
 
 	<div class="content__col content__col--experience">
-		<h3 class="title">Experience</h3>
+		
 		<dl>
 			<dt class="employer"><a href="http://kokko.me" target="_blank">KOKKO</a></dt>
 			<dd>
@@ -37,8 +33,12 @@
 	</div>
 
 	<div class="content__col content__col--contact">
-		<h3 class="title">Get in touch</h3>
+		
 		<a href="mailto:hello@mlicon.ca">hello@mlicon.ca</a>
+
+		<ul class="social-nav buttons">	
+			<li class="social-nav__li"><a href="http://twitter.com/mckennethlicon" target="_blank"><i class="icon-twitter"></i></a></li>
+			<li class="social-nav__li"><a href="https://www.linkedin.com/in/mckennethlicon" target="_blank"><i class="icon-linkedin"></i></a></li>
+		</ul>
 	</div>
-</div>
 </div>

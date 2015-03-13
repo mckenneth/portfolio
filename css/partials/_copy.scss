@@ -1,0 +1,181 @@
+.intro {
+	position: relative;
+	overflow: hidden;
+	font-size: 1.2rem;
+
+	.intro__text {
+		@extend .h2;
+		margin: 8rem 6rem 8rem (100%/3)!important;
+		color: #838383;
+	}
+
+	.button-projects {
+		position: absolute; 
+		right:10%;
+		bottom:10%; 
+	}
+}
+
+.copy {
+	text-align: left;
+	margin: 0 auto;
+	max-width: 480px;
+	width: 100%;
+	font-size: 1.8rem;
+	line-height: 1.4em;
+	color: rgba(68, 68, 68, 0.8);
+
+	// p:first-child {
+	// 	@extend .h3;
+	// }
+
+	dt {
+		font-size: 1.2rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing:0.2em;
+		@include opacity(0.2);
+		line-height: 1.2em;
+	}
+
+	dd {
+		margin: 0 0 3rem 0;
+		font-size:1.6rem;
+	}
+}
+
+.content {
+	color: rgba(68, 68, 68, 1);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 1.4rem;
+	margin-left: 4%;
+
+	.content__col {
+		float: left;
+		padding: 0 2%;
+		border-right:1px solid #ccc;
+		border-left:1px solid #fff;
+		min-height: 360px;
+
+		&:first-child {
+			border-left: 0;
+		}
+
+		&:last-child {
+			border-right: 0;
+		}
+
+		&--about {
+			font-size: 1.6rem;
+			line-height: 1.48em;
+			padding-right: 2%;
+			max-width: 480px;
+
+			a, a:link, a:visited {
+				text-decoration: none;
+				color: #666;
+				border-bottom: 1px solid #fff;
+				@include trans(200ms);
+			}
+		}
+
+		&--experience {
+			width: 260px;
+		}
+
+		&--contact{
+			width: 260px;
+		}
+	}
+
+	a, a:link, a:visited {
+		text-decoration: none;
+		color: #666;
+		border-bottom: 0px solid #ccc;
+		@include trans(200ms);
+
+		&:hover {
+			border-bottom: 1px solid #fff;
+			color: #fff;
+		}
+	}
+
+	.employer {
+		a, a:link, a:visited {
+			font-weight: 700;
+		}
+	}
+
+	.title {
+		font-size: 2.4rem;
+		font-weight: 500;
+		color: #000;
+		@include opacity(0.2);
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	
+	.window {
+		height: 100vh;
+		overflow: scroll;
+	}
+	.content {
+		bottom: none;
+		top: 0;
+		padding: 8rem 0;
+		position: relative;
+		max-width: 600px;
+		display: block;
+		height: 100%;
+
+		.content__col {
+			display: block;
+			max-width: 100%;
+			width: 100%;
+			border: 0;
+			padding: 2rem;
+			min-height: 0;
+
+			&:first-child, &:last-child {
+				border: 0;
+			}
+
+			&--about {
+				font-size: 2rem;
+				line-height: 1.4em;
+		
+			}
+
+			&--experience {
+	
+			}
+
+			&--contact {
+			
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+
+	.intro {
+		position: relative;
+
+		.intro__text {
+			margin: 8rem 6rem 8rem 6rem!important;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.copy {
+		margin:0;
+		width: 100%;
+		line-height: 1.6em;
+	}
+}

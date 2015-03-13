@@ -1,14 +1,31 @@
-// Typography
-$primary: "proxima-nova", Arial, sans-serif;
-$secondary: "minion-pro", "Times New Roman", Georgia, serif;
+// Typefaces
+$font1: 'proxima-nova', Arial, sans-serif;
+$font2: 'chaparral-pro', 'Times New Roman', Georgia, serif;
 
-// Color Scheme
-$text-color: #444;
+// Color  Palettes
+// $color1: #eeeeee;
+// $color2: #cccccc;
+// $color3: #888888;
+// $color4: #666666;
+// $color5: #444444;
+// $text-color: #444;
+
 $body-bg: #ececec;
-
 $textlink: #444;
 
-// Layout
+$text: #444; /* default */
+$text2: #666;
+$text3: #777;
+$text4: #888;
+$text5: #999;
+$text6: #eee; 
 
+$border: #aaa;
+$border2: #ccc;
+$border3: #eee;
 
-// Breakpoints
+$bg: #eee;
+$bg2: #fff;
+$bg3: #f7f7f7;
+
+$accent: #00f;

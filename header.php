@@ -8,23 +8,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>M'c kenneth Licon -  Interactive Media Designer/Developer</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
-
     <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-precomposed-76x76.png">
     <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-precomposed-120x120.png">
     <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-precomposed.png">
+    <style type="text/css">
+        * { 
+            margin:0; 
+            padding:0;
+        }
 
-    <link rel="stylesheet" href="css/screen.css">
+        body {
+            background: #eee;
+        }
+
+        .nav {
+            border-left: 0px solid #ccc;
+            height: 100vh;
+            width: 88px;
+        }
+
+        .main { display: none; }
+        .item__header { opacity: 0;}
+        .project-nav__li { opacity: 0;}
+    </style>
+
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'pdt7srw',
+          scriptTimeout: 100
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+    <link rel="stylesheet" href="css/screen.min.css">
+    <link href="https://fontastic.s3.amazonaws.com/Y8H6mJjSDqs8SZSbAXn6TK/icons.css" rel="stylesheet">
     <script src="js/modernizr-2.8.3.js"></script>
-    <script src="//use.typekit.net/pdt7srw.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
-</head>
-<body>
-<?php include('function.php'); ?>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="js/detectmobilebrowser.js"></script>
 
-    <? include('inc/about.php') ?>
+</head>
+<?php include('function.php') ?>
+
+<body class="<?php bodyclass(); ?>">
+    <div class="window"></div>
+   
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
