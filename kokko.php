@@ -9,7 +9,6 @@
 	<main role="main" class="main main--portfolio">
 		<?php include('inc/wallpaper.php') ?>
 
-
 		<article class="project project--<?php echo $project; ?>" id="project">	
 			<div role="heading" class="row--with-border">
 				<div class="copy">
@@ -34,15 +33,12 @@
 			</div>			
 
 			<div class="row">
-
-				
 				<div class="image">
 					<img class="showImg lazy" src="img/spacer.gif" data-original="assets/kokko/kokko_index.jpg">
-				</div>
-			
+				</div>	
 			</div>
 
-			<div class="row row--alignright">
+			<div class="row">
 				<div class="image image--md">
 					<img class="showImg lazy" src="img/spacer.gif" data-original="assets/kokko/kokko_mobile_home.jpg">
 				</div>
