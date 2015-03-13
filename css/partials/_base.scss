@@ -39,3 +39,7 @@ hr {
 #loadbar {
 	@include prefix(transform, translateX(-88px));
 }
+
+@media (max-device-width: 1024px) {
+	
+}
