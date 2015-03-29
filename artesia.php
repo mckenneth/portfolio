@@ -9,10 +9,10 @@ include('inc/side.php')
 	<?php include('inc/wallpaper.php') ?>
 
 	<article class="project" id="project--<?php echo $project; ?>">
-		<div class="row--with-border">
-		
+		<div class="row--with-border" style="background:rgba(40,40,64,0.8); height: 100vh; color: #fff;">
+			<p class="h2">Artesia is an award winning Community developed by Heritage Pointe Properties.</p>
 			<div class="copy">
-				
+				<section class="copy__brief" style="color: #fff; opacity:0.4;">
 				<p>Artesia is an award winning Community developed by Heritage Pointe Properties. I was brought on board to build a custom Wordpress CMS site that provides users an online platform to learn about Artesia in an informative and engaging way.</p>
 				
 				<p>As the lead developer, I worked closely with the graphic designer and user interface designer to develop an online platform, rich with beautiful contents, advanced features and functionalities.</p>
@@ -21,7 +21,8 @@ include('inc/side.php')
 
 				<p>The end result is informative, highly engaging and most importantly, easily manageable for the client.</p>
 
-				<hr class="hr--mini"/>
+				</section>
+				<section class="copy__moreinfo">
 				<dl>	
 					<dt>Role</dt>
 					<dd>Web Development</dd>
@@ -32,6 +33,7 @@ include('inc/side.php')
 					<dt>URL</dt>
 					<dd><a href="http://liveatartesia.com" target="_blank" title="Artesia">liveatartesia.com</a></dd>
 				</dl>
+				</section>
 			</div>
 		</div>
 

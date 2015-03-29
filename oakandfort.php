@@ -8,8 +8,8 @@
 
 		<?php include('inc/wallpaper.php') ?>
 
-		<article class="project" id="project--<?php echo $project; ?>">
-			<div class="row--with-border">
+		<article class="project project--<?php echo $project; ?>">
+			<div role="heading" class="row--with-border row-content">
 				<div class="copy">
 					
 					<p>OAK + FORT is a retail brand dedicated to a fused culture of art, fashion and exploration.  The brand offers curated collections of minimal and thoughtfully designed garments for both men and women.  I had the privilege of working with OAK + FORT as an in-house Graphic designer and Web developer during the beginning of their establishment in Vancouver and Edmonton.</p>

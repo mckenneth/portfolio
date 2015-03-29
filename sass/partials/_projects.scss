@@ -5,7 +5,7 @@
 }
 
 .project {
-	background: #fff;
+	
 	position: relative;
 	min-height: 1200px;
 	@include clearfix;
@@ -103,31 +103,38 @@
 	width: 240px!important;
 }
 
-.stuck {
-	position: fixed;
-	top: 0;
-	z-index: 1000;
+
+
+.row--content {
+	min-height: 80vh;
 }
 
-.stick {
-	width: 60px;
-	float: left;
+.project--kokko .row-content {
+	background: #222;
 }
 
-.sticky-wrapper {
-	position: absolute;
-	z-index:10;
+.project--kenton .row-content {
+	background: #080808;
 }
 
-.wtf {
-	width: 100px;
-	height:50px;
-	display:block;
-	background: #09f;
-	position: fixed!important;
-	top: 0;
-	left: 0;
+.project--oakandfort .row-content {
+	background: #aeaeae;
 }
+
+
+.project--arrivehome .row-content {
+	background: #422555;
+}
+
+
+.project--pekasrkystein .row-content {
+	background: #b2b93d;
+}
+
+
+
+
+
 
 // .global-nav-holder {
 // 	height: 100vh;

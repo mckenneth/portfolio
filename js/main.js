@@ -177,8 +177,6 @@ $(function () {
 		}
 	});
 
-
-
 	$('.item__link').on('mouseenter', function(){
 		$(this).find('.item__header').velocity({opacity: 1}),
 		$(this).siblings('.item__img').velocity({opacity:0.5, scaleX: 1.1, scaleY: 1.1}, 400)

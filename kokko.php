@@ -10,15 +10,18 @@
 		<?php include('inc/wallpaper.php') ?>
 
 		<article class="project project--<?php echo $project; ?>" id="project">	
-			<div role="heading" class="row--with-border">
+			<div role="heading" class="row--with-border row-content">
+						
 				<div class="copy">
+					<section class="copy__brief">
 					<p>Kokko is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. </p>
 
 					<p>With growing demand for online shopping experience, I was brought on board to help launch the company's first digital storefront.  The website showcases a broad range of brands for both men and women, from ready-to-wear, street-wear, to high-fashion.  My approach is to simplify the concept and focus on the key elements that consumers value the most: Products, Usability and Accessibility.</p>
 
 					<p>The result is an intuitive website that reflects the company's essence: minimal, inviting and fully shopable on every screen.  KOKKO successfully expanded its business through its new digital storefront.</p>
 					
-					<hr class="hr--mini"/>
+					</section>
+					<section class="copy__moreinfo">
 					<dl>	
 						<dt>Roles</dt>
 						<dd>Art direction &amp; design, User interface, Development</dd>
@@ -29,6 +32,7 @@
 						<dt>Link</dt>
 						<dd><a href="http://kokko.me" target="_blank" title="KOKKO - Luxury Boutique">kokko.me</a></dd>
 					</dl>
+					</section>
 				</div>
 			</div>			
 

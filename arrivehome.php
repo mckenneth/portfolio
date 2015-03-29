@@ -7,8 +7,8 @@
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">
 	<?php include('inc/wallpaper.php') ?>
 
-	<article class="project" id="project--<?php echo $project; ?>">
-		<div class="row--with-border">
+	<article class="project project--<?php echo $project; ?>">
+		<div class="row--with-border row-content">
 			<div class="copy">
 				
 				<p>Arrive is a Calgary-based home development company known for their energy conscious building techniques. Devoted to environmental friendly practices, Arrive uses green materials and pushes for energy and water saving features in their home designs.</p>

@@ -8,8 +8,8 @@
 		
 		<?php include('inc/wallpaper.php') ?>
 
-		<article class="project" id="project--<?php echo $project; ?>">
-			<div class="row--with-border">
+		<article class="project project--<?php echo $project; ?>">
+			<div role="heading" class="row--with-border row-content">
 				<div class="copy">
 				<!-- <p class="h2">
 				Bringing readers to the forefront of fashion, culture and society
