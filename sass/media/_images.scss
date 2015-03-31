@@ -30,12 +30,12 @@
 
 	&--lg {
 		@extend .image;
-		max-width: 960px;
+		max-width: 720px;
 	}
 
 	&--md {
 		@extend .image;
-		max-width: 720px;
+		max-width: 640px;
 	}
 
 	&--sm {

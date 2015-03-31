@@ -1,28 +1,36 @@
 <?php
-	$project = 'kenton';
+		if (!empty($_GET['project'])) {  
+		    $project = $_GET['project'];   
+		    $project = basename($project);   
+		    // include("templates/$project.htm"); 
+		    echo $project; 
+		} else { 
+		    // include("templates/index.htm"); 
+		    echo 'no templates';
+		} 
+		
 	include('header.php');
 	include('inc/side.php')
 ?>
 
 	<main role="main" class="main main--portfolio">
+
 		
 		<?php include('inc/wallpaper.php') ?>
+
+
 
 		<article class="project project--<?php echo $project; ?>">
 			<div role="heading" class="row--with-border row-content">
 				<div class="copy">
-				
-				<div class="copy__brief" style="color: rgba( 255, 255, 255, 0.5);">
-				<p class="h2">
+				<!-- <p class="h2">
 				Bringing readers to the forefront of fashion, culture and society
-				</p>
+				</p> -->
 		        <p>KENTON magazine is a leading global online fashion and lifestyle magazine for young professionals.  To celebrate a year of successful online publishing, I was commissioned to help redesign their website.</p>
 
 				<p>KENTON was relaunched with a refreshed visual design, sophisticated backend technology and a sleek user interface, re-imagined for modern and mobile audience.</p>
-				</div>
-			
 				
-				<div class="copy__moreinfo">
+				<hr class="hr--mini"/>
 				<dl>	
 						<dt>Roles</dt>
 						<dd>Responsive Web Design, CMS Integration/Development</dd>
@@ -33,7 +41,6 @@
 						<dt>Link</dt>
 						<dd><a href="http://kentonmagazine.com" target="_blank" title="Kenton Magazine">kentonmagazine.com</a></dd>
 					</dl>
-				</div>
 				</div>
 			</div>
 

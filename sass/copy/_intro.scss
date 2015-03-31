@@ -1,0 +1,28 @@
+.intro {
+	position: relative;
+	overflow: hidden;
+	font-size: 1.2rem;
+
+	.intro__text {
+		@extend .h2;
+		margin: 8rem 6rem 8rem (100%/3)!important;
+		color: #838383;
+	}
+
+	.button-projects {
+		position: absolute; 
+		right:10%;
+		bottom:10%; 
+	}
+}
+
+@media (max-width: 768px) {
+
+	.intro {
+		position: relative;
+
+		.intro__text {
+			margin: 8rem 6rem 8rem 6rem!important;
+		}
+	}
+}

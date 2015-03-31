@@ -53,8 +53,7 @@
     <script src="js/detectmobilebrowser.js"></script>
 
 </head>
-<?php include('function.php') ?>
-
+<?php include('function.php');?>
 <body class="<?php bodyclass(); ?>">
     <div class="window"></div>
    
