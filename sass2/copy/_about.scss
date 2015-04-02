@@ -1,0 +1,117 @@
+.content {
+	color: rgba(68, 68, 68, 1);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 1.4rem;
+	margin-left: 4%;
+
+	.content__col {
+		float: left;
+		padding: 0 2%;
+		border-right:1px solid #ccc;
+		border-left:1px solid #fff;
+		min-height: 360px;
+
+		&:first-child {
+			border-left: 0;
+		}
+
+		&:last-child {
+			border-right: 0;
+		}
+
+		&--about {
+			font-size: 1.6rem;
+			line-height: 1.48em;
+			padding-right: 2%;
+			max-width: 480px;
+
+			a, a:link, a:visited {
+				text-decoration: none;
+				color: #666;
+				border-bottom: 1px solid #fff;
+				@include trans(200ms);
+			}
+		}
+
+		&--experience {
+			width: 260px;
+		}
+
+		&--contact{
+			width: 260px;
+		}
+	}
+
+	a, a:link, a:visited {
+		text-decoration: none;
+		color: #666;
+		border-bottom: 0px solid #ccc;
+		@include trans(200ms);
+
+		&:hover {
+			border-bottom: 1px solid #fff;
+			color: #fff;
+		}
+	}
+
+	.employer {
+		a, a:link, a:visited {
+			font-weight: 700;
+		}
+	}
+
+	.title {
+		font-size: 2.4rem;
+		font-weight: 500;
+		color: #000;
+		@include opacity(0.2);
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	
+	.window {
+		height: 100vh;
+		overflow: scroll;
+	}
+
+	.content {
+		bottom: none;
+		top: 0;
+		padding: 8rem 0;
+		position: relative;
+		max-width: 600px;
+		display: block;
+		height: 100%;
+
+		.content__col {
+			display: block;
+			max-width: 100%;
+			width: 100%;
+			border: 0;
+			padding: 2rem;
+			min-height: 0;
+
+			&:first-child, &:last-child {
+				border: 0;
+			}
+
+			&--about {
+				font-size: 2rem;
+				line-height: 1.4em;
+		
+			}
+
+			&--experience {
+	
+			}
+
+			&--contact {
+			
+			}
+		}
+	}
+}

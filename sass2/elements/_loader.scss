@@ -1,0 +1,6 @@
+.loader {
+
+}
+#loadbar {
+	@include prefix(transform, translateX(-88px));
+}

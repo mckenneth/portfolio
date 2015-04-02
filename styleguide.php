@@ -310,21 +310,11 @@
 		<h2 class="h2 title">Animation</h2>
 		<table>
 			<tr>
-				<th>.loading</th>
-				<td>
-					<h1 class="brand loading">	
-						<?php echo  $brand ?>
-					</h1>
-				</td>
-			</tr>
-			<tr>
-				<th>Class Name</th>
-				<th></th>
-			</tr>
 				<td>.SlideInMain</td>
 				<td>
 					
 				</td>
+			</tr>
 			<tr>
 				<td>.SlideOutMain</td>
 				<td>

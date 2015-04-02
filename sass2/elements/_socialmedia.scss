@@ -1,0 +1,18 @@
+.social-nav {
+
+	&__li {
+		float:left;
+		padding: 1rem 1rem 1rem 0;
+	}
+
+	a {
+		@include prefix(border-radius, 100%);
+		background: $bg;
+		color: $text;
+		width: 34px;
+		height: 34px;
+	}	
+	a:hover {
+		color: $accent;
+	}
+}

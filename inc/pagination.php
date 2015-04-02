@@ -1,5 +1,4 @@
 <!-- if home, don't show navigation  -->
-
 <?php if ($is_home): else: ?>
     <ul class="project-nav buttons <?php echo $projNavclass ?>">
         <li class="project-nav__li buttons__li project-nav__li--index">

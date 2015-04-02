@@ -20,7 +20,7 @@
 		<?php include('inc/wallpaper.php') ?>
 
 		<article class="project project--<?php echo $project; ?>" id="project">	
-			<div role="heading" class="row" style="background: #222; min-height: 80vh;">					
+			<div role="heading" class="row row--content">					
 				<div class="copy">
 					<p class='h2' style="padding:2rem; width:80%;">Kokko is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. </p><br/><Br/>
 					<div class="copy__brief" style="color: rgba( 255, 255, 255, 0.5);">

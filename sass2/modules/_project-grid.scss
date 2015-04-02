@@ -1,0 +1,107 @@
+.project-grid {
+	line-height: 0;
+	font-size: 0;
+	@include clearfix;
+}
+
+.item {
+	font-size: 0;
+	line-height: 0;
+	display: inline-block;
+	width: 33.334%; /* rounded to fix bug on ipad */
+	overflow: hidden;
+	background: #000;
+	position: relative;
+
+	&--spacer {
+		@extend .item;
+		background: #fff;
+	}
+
+	&--spacer--gray {
+		@extend .item;
+		
+		.item__img {
+			background: #eee;
+		}
+	}
+
+	&__cover {
+		width: 1200px;
+		height: 1200px;
+		transform: rotate(45deg);
+		background: #fff;
+		display: block;
+		position: absolute;
+		left: -800px;
+		top:-1250px;
+		z-index: 3;
+		opacity: 0.3;
+	}
+
+	&__img {
+		width: 100%;
+		height: auto!important;
+		z-index: 1;
+	}
+
+	&__link {
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		overflow: hidden;
+		border: 0;
+		z-index: 100!important;
+		cursor: pointer;
+		
+
+
+		&:link, &:hover, &:active, &:visited {
+			border: 0;
+			z-index: 100;
+			cursor: pointer;
+		}
+	}
+
+	&__header {
+		opacity: 0;
+		font-size: 0;
+		position: relative;
+		width: 50%;
+		margin: 0 auto;
+		top: 52%;
+	  	text-align: center;
+	  	z-index: 1;
+	}
+
+	&__logo {
+		width: 100%;
+		position: absolute;
+		@include prefix(transform, translate(-50%, -50%));
+	}
+}
+
+@media (max-width: 1024px) {
+	.item {
+		width: 50%; /* rounded to fix bug on ipad */
+		
+		&--spacer {
+			display: none;
+		}
+
+		&--spacer--gray {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.item {
+		width: 100%;
+	}
+
+	.wallpaper--kokko .wallpaper__image-holder {
+		background-position-x: 90%!important;
+	}
+}

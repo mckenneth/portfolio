@@ -15,14 +15,13 @@
 				?>" width="996" height="551.04" alt="Mlicon">
 			</div>
 			<div class="scrolldown">
-				<a href="#projects" class="button scrollto">Scroll Down</a>
+				<a href="#project-grid" class="button scrollto">Scroll Down</a>
 			</div>
 	    </section>
 
 	    <!-- item grid -->
-		<section role="grid" class="projects" id="projects">
+		<section role="grid" class="project-grid" id="project-grid">
     		<article class="item" id="kokko">
-    		
 	    		<a class="item__link" href="kokko">
 	    			<h2 class="item__header">
 	    				<img class="item__logo" src="assets/kokko/kokko_logo_w.png" alt="KOKKO">

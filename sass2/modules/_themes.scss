@@ -1,0 +1,41 @@
+.wallpaper--kokko {
+	.project-logo {
+		width: 240px!important;
+	}
+}
+
+.wallpaper--kenton .project-logo {
+
+}
+
+.wallpaper--arrivehome > .project-logo {
+	width: 240px!important;
+}
+
+
+.row--content {
+	min-height: 80vh;
+	@include clearfix;
+}
+
+.project--kokko .row--content {
+	background: #222;
+}
+
+.project--kenton .row-content {
+	background: #444;
+}
+
+.project--oakandfort .row-content {
+	background: #aeaeae;
+}
+
+
+.project--arrivehome .row-content {
+	background: #422555;
+}
+
+
+.project--pekasrkystein .row-content {
+	background: #b2b93d;
+}

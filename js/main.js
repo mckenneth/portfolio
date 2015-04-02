@@ -8,8 +8,6 @@ $(function () {
 	var myEase = [0.455, 0.030, 0.515, 0.955];
 	var projNav = false;
 
-	$('.nav').css({'height':vh});
-
 	$('.mck, .projects').parallax();
 
 	/* image res selector */
@@ -158,7 +156,7 @@ $(function () {
 		
 		$(x).velocity('scroll', {
 			duration: 600,
-			delay: 400,
+			delay: 0,
 			mobileHA: false,
 			offset: 1
 		})

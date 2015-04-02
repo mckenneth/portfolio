@@ -1,0 +1,22 @@
+.mck {
+	margin: 120px 0 240px -240px;
+
+	img {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	img:last-child {
+		margin: -2% 0 0 2%;
+	}
+}
+
+/*--------------------------------------------------------------
+# M E D I A  Q U E R I E S
+--------------------------------------------------------------*/
+@media (max-width: $breakpoint--md) {
+	.mck {
+		margin: 100px 0 240px -360px;
+	}
+}
