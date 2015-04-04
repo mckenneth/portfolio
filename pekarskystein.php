@@ -8,7 +8,7 @@ include('inc/side.php');
 	<?php include('inc/wallpaper.php') ?>
 
 	<article class="project project--<?php echo $project; ?>">
-		<div class="row--with-border row-content">
+		<div class="row--with-border row--content">
 			<div class="copy">
 				<p>Pekarsky Stein is Western Canada's leading boutique job search firm. In collaboration with <a href="http://foundrycommunications.ca" target="_blank" title="Foundry Communications">Foundry Communications</a> and <a href="http://brightaidestudios.ca" target="_blank" title="Brightside Studios">Brightside Studios</a>, I was commissioned to develop a custom Wordpress site with a fully integrated job posting board.</p>
 				

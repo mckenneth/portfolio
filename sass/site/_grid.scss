@@ -1,58 +1,10 @@
-.no-js .main,
-.no-js .item__header,
-.no-js .window { display: block; }
-
-.window {
-	margin-left: 4%;
-	height: 100%;
-	position: fixed;
-	right: 0px;
-	padding-right:100px!important;
-	width: 100%;
-	@include prefix(overflow-scrolling, touch);
-}
-
-
-.mck {
-	margin: 120px 0 240px -240px;
-
-	img {
-		position: relative;
-		top: 0;
-		left: 0;
-	}
-
-	img:last-child {
-		margin: -2% 0 0 2%;
-	}
-}
-
-.main {
-	margin: 0 88px 0 0;
-	height: 100%;
-	position: relative;
-	background: #fff;
-	@include clearfix;
-	@include shadow(#000000, 20);
-
-	&__cover {
-		background: #000;
-		position: absolute;
-		display: block;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		cursor: e-resize;
-	}
-}
-
 .row {
 	width: 100%;
 	position: relative;
 	text-align: center;
 	overflow: hidden;
+	padding: 8rem 0;
+	background: #fff;
 
 	&--gray {
 		background: #eee;
@@ -105,7 +57,6 @@
 .col-10 {
 	width: ((100%/12)*10);
 }
-
 .col-11 {
 	width: ((100%/12)*11);
 }
@@ -133,13 +84,4 @@
 	padding: 25px;
 	
 	@include clearfix;
-}
-
-
-
-
-@media (max-width: 768px) {
-	.mck {
-		margin: 100px 0 240px -360px;
-	}
 }

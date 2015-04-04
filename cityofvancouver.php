@@ -8,7 +8,7 @@ include('inc/side.php')
 	<?php include('inc/wallpaper.php') ?>
 	
 	<article class="project" id="project--<?php echo $project; ?>">
-		<div class="row--with-border">
+		<div class="row--with-border row--content">
 			<div class="copy">
 				<p>During my internship at Ion Brand Design, I was fortunate to have been involved in redesigning the new website for the City of Vancouver alongside few of the city's most talented designers.</p>
 

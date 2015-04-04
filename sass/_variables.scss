@@ -1,6 +1,6 @@
 // Typefaces
 $font1: 'proxima-nova', Arial, sans-serif;
-$font2: 'chaparral-pro', 'Times New Roman', Georgia, serif;
+$font2: 'proxima-nova', 'chaparral-pro', 'Times New Roman', Georgia, serif;
 
 // Color  Palettes
 // $color1: #eeeeee;
@@ -26,6 +26,15 @@ $border3: #eee;
 
 $bg: #eee;
 $bg2: #fff;
-$bg3: #f7f7f7;
+$bg3: #f5f5f5;
 
 $accent: #00f;
+
+/* browser */
+$frame-color: #eee;
+$dots-color: #ccc;
+
+/* Breakpoints */
+$breakpoint--sm: 480px;
+$breakpoint--md: 768px;
+$breakpoint--lg: 1023px;

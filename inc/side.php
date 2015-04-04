@@ -7,19 +7,16 @@
 			 	echo '<a href="'. $home .'" class="brand__link pageExit">'. $brand .'</a>';
 			}
 		?>
-			<hr>
 	</h1>
-
 	<?php include('inc/pagination.php') ?>
-	
-	<div class="global-nav-holder">
-	<ul class="global-nav buttons">
-		<li class="global-nav__li buttons__li">
-			<a id="about" class="global-nav__link button" href="#" title="Info">
-				<i class="icon-info"></i>
-			</a>
-		</li>
-	</ul>
+	<div class="global-nav">
+		<ul class="buttons">
+			<li class="buttons__li">
+				<a id="about" class="button" href="#" title="Info">
+					<i class="icon-info"></i>
+				</a>
+			</li>
+		</ul>
 	</div>
 	
 	<ul class="styleguide-nav buttons">
@@ -49,5 +46,4 @@
 			</a>
 		</li>
 	</ul>
-	
 </nav>

@@ -1,0 +1,35 @@
+.project-nav {
+	z-index: 1000;
+	width: 50px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	// top: 50%;
+	// transform: translateY(-50%);
+	.buttons__li {
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+
+	.button {
+		background: rgba(255,255,255,0);
+	}
+}
+
+
+/*--------------------------------------------------------------
+# M E D I A   Q U E R I E S
+--------------------------------------------------------------*/
+
+@media (max-width: $breakpoint--md) {
+	.project-nav {
+		position: relative;
+		margin:-50% auto 0;
+		top: 40%;
+		right: 0;
+		left: none;
+	}
+}

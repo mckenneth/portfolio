@@ -1,0 +1,17 @@
+.global-nav {
+	position: absolute;
+	bottom: 1%;
+	right: 0;
+	width: 100%;
+}
+
+@media (max-width: $breakpoint--md) {
+	
+	.global-nav {
+		position: absolute;
+		bottom: none; /*6%;*/
+		bottom: 0;
+		right: 0;
+		width: 100%;
+	}
+}

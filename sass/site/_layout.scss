@@ -1,10 +1,11 @@
 .main {
-	margin: 0 88px 0 0;
+	margin: 0 90px 0 0;
 	height: 100%;
 	position: relative;
 	background: #fff;
 	@include clearfix;
 	@include shadow(#000000, 20);
+	overflow: hidden;
 
 	&__cover {
 		background: #000;
@@ -29,34 +30,6 @@
 	@include prefix(overflow-scrolling, touch);
 }
 
-.row {
-	width: 100%;
-	position: relative;
-	text-align: center;
-	overflow: hidden;
-	padding: 8rem 0;
-
-	&--gray {
-		background: #eee;
-		@extend .row;
-	}
-
-	&--alignright {
-		text-align: right;
-		@extend .row;
-	}
-
-	&--alignleft {
-		text-align: left;
-		@extend .row;
-	}
-
-	&--with-border {
-		border-bottom:1px solid rgba(127, 127, 127, 0.15);
-		@extend .row;
-	}
-}
-
 .no-js .main,
 .no-js .item__header,
 .no-js .window {
@@ -66,7 +39,7 @@
 
 @media (max-width: $breakpoint--md) {
 	.main { 
-		margin-right: 81px;
+		margin-right: 80px;
 	}
 }
 

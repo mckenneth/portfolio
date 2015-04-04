@@ -16,10 +16,11 @@
 .row--content {
 	min-height: 80vh;
 	@include clearfix;
+	background: #222;
 }
 
 .project--kokko .row--content {
-	background: #222;
+	background: rgba(34,34,34,0.96);
 }
 
 .project--kenton .row-content {
@@ -34,7 +35,6 @@
 .project--arrivehome .row-content {
 	background: #422555;
 }
-
 
 .project--pekasrkystein .row-content {
 	background: #b2b93d;

@@ -1,13 +1,6 @@
-.projects {
+.project-grid {
 	line-height: 0;
 	font-size: 0;
-	@include clearfix;
-}
-
-.project {
-	
-	position: relative;
-	min-height: 1200px;
 	@include clearfix;
 }
 
@@ -15,7 +8,7 @@
 	font-size: 0;
 	line-height: 0;
 	display: inline-block;
-	width: 33.334%; /* rounded to fix bug on ipad */
+	width: (100%/3); /* rounded to fix bug on ipad */
 	overflow: hidden;
 	background: #000;
 	position: relative;
@@ -89,59 +82,7 @@
 	}
 }
 
-.wallpaper--kokko {
-	.project-logo {
-		width: 240px!important;
-	}
-}
-
-.wallpaper--kenton .project-logo {
-
-}
-
-.wallpaper--arrivehome > .project-logo {
-	width: 240px!important;
-}
-
-.row--content {
-	height: 80vh;
-
-	@include clearfix;
-}
-
-.project--kokko .row-content {
-	background: #222;
-}
-
-.project--kenton .row-content {
-	background: #444;
-}
-
-.project--oakandfort .row-content {
-	background: #aeaeae;
-}
-
-
-.project--arrivehome .row-content {
-	background: #422555;
-}
-
-
-.project--pekasrkystein .row-content {
-	background: #b2b93d;
-}
-
-
-
-
-
-
-// .global-nav-holder {
-// 	height: 100vh;
-// 	background: red;
-// }
-
-@media (max-width: 1024px) {
+@media (max-width: $breakpoint--lg) {
 	.item {
 		width: 50%; /* rounded to fix bug on ipad */
 		

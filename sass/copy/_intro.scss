@@ -8,21 +8,13 @@
 		margin: 8rem 6rem 8rem (100%/3)!important;
 		color: #838383;
 	}
-
-	.button-projects {
-		position: absolute; 
-		right:10%;
-		bottom:10%; 
-	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: $breakpoint--lg) {
 
 	.intro {
-		position: relative;
-
 		.intro__text {
-			margin: 8rem 6rem 8rem 6rem!important;
+			margin: 9rem 6rem 9rem 6rem!important;
 		}
 	}
 }

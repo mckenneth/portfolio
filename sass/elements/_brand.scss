@@ -2,10 +2,18 @@
 	font-size: 0;
 	width: 100%;
 	display: block;
-	margin: 2.4rem 0 2.4rem;
+	margin: 0;
 	right: 0;
 	top: 0;
-	left: none;
+
+	&:after {
+		content: '';
+		width: 64%;
+		height: 1px;
+		background: rgba(0, 0, 0, 0.1);
+		display: block;
+		margin: 0.8rem auto;
+	}
 }
 
 .brand__link {
@@ -27,9 +35,11 @@
 	@include prefix(box-sizing, border-box);
 }
 
-.nav hr {
-  background: #888;
-  width: 60%;
-  margin: 1rem auto;
-  @include opacity(0.2);
+
+@media (max-width: $breakpoint--sm) {
+	.brand {
+		&:after {
+			display: none;
+		}
+	}
 }

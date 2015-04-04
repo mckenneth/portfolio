@@ -11,7 +11,7 @@ include('inc/side.php')
 	<article class="project" id="project--<?php echo $project; ?>">
 		<div class="row--with-border" style="background:#c1471f; height: 100vh;">
 			<div class="copy">
-			<p class="h2" style="color: #fff; opacity: 0.8;">Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year.</p>
+			<p class="h2" style="color: #fff; opacity: 0.8;">Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year.</p><br/><Br/>
 			<section class="copy__brief" style="color:#fff; opacity:0.6;">
 				<p>Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year. Stringam works with experienced team, handling a variety of cases in all areas of law, from family and divorce to business, agriculture, and personal injury.</p>
 
@@ -35,10 +35,6 @@ include('inc/side.php')
 				</section>
 			</div>
 		</div>
-		<div class="row" style="background:transparent; height:100vh;">
-
-		</div>
-
 		<div class="row">
 			<div class="image">
 				<img class="showImg lazy" src="img/spacer.gif" data-original="assets/stringamdenecky/stringam_000.jpg">

@@ -1,13 +1,9 @@
 .copy {
 	text-align: left;
-	padding: 10rem 0;
+	padding: 0 5rem;
 	font-size: 1.4rem;
 	line-height: 1.4em;
 	color: rgba(255, 255, 255, 0.8);
-
-	// p:first-child {
-	// 	@extend .h3;
-	// }
 
 	a, a:link, a:visited {
 		color: rgba(255, 255, 255, 0.8);
@@ -22,7 +18,6 @@
 
 		.h2 {
 			@include prefix(column-span, all);
-			display: block;
 		}
 	}
 
@@ -41,18 +36,12 @@
 		padding: 0;
 		margin: 0rem 0 2rem 0;
 	}
+}
 
-	dt {
-		font-size: 1.2rem;
-		font-weight: bold;
-		text-transform: uppercase;
-		letter-spacing:0.2em;
-		@include opacity(0.2);
-		line-height: 1.2em;
-	}
-
-	dd {
-		margin: 0 0 2rem 0;
+@media (max-width: 1024px) {
+	.copy__brief {
+		@include prefix(column-count, 1);
+		@include prefix(column-gap, 40px);
 	}
 }
 

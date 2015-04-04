@@ -7,15 +7,12 @@
 		        My name is <br class="break"/>M'c kenneth<br />
 		        I'm a Graphic Designer &amp; <br/>
 		        front-end developer.
-	        </h3>  
+	        </h3>
 			<div class="mck" role="banner">
 				<img class="layer" data-depth="0.5" src="<?php echo 'data:image/svg+xml;base64,'.$logo_outline
 				?>" width="996" height="551.04" alt="Mlicon">
 				<img class="layer" data-depth="0.2" src="<?php echo 'data:image/svg+xml;base64,'.$logo
 				?>" width="996" height="551.04" alt="Mlicon">
-			</div>
-			<div class="scrolldown">
-				<a href="#project-grid" class="button scrollto">Scroll Down</a>
 			</div>
 	    </section>
 

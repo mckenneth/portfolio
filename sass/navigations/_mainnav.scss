@@ -6,6 +6,7 @@
 	top: 0;
 	right: 0;
 	z-index: 2;
+	padding: 2.4rem 0 0rem;
 }
 
 @media (max-width: $breakpoint--md) {
@@ -19,7 +20,8 @@
 		width: 100%;
 		height: 64px;
 		top: 0;
-		z-index: 1000;
-		background: rgba(255,255,255,0.9);
+		z-index: 10;
+		background: rgba(238,238,238,0.95);
+		padding: 1.6rem 0 0rem;
 	}
 }

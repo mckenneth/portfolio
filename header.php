@@ -26,7 +26,6 @@
         }
 
         .nav {
-            border-left: 0px solid #ccc;
             height: 100vh;
             width: 88px;
         }

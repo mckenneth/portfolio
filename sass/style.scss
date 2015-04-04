@@ -1,6 +1,5 @@
 /*
 
-
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
@@ -9,79 +8,43 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Normalize
-# Typography
-# Elements
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-    ## Posts and pages
-	## Asides
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
---------------------------------------------------------------*/
-@import "variables/variables";
-@import "mixins/mixins-master";
+# Mixins
+# variables
+# site
+	## Base
+	## layout
+# navigation
+	## Project Navigation
+# copy
+	## intro
+	## project
+	## profile
+# modules
+	## wallpaper
+	## project-grid
+	## mckenneth
+# elements
+	## brand
+	## buttons
+		### socialmedia
+		### global
+		### scroll
+		### scrollup
+# media
+	## index projects
+	## project image
 
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
 @import "normalize";
+@import "mixins";
+@import "variables";
 
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
-@import "typography/typography";
-
-/*--------------------------------------------------------------
-# Navigations
---------------------------------------------------------------*/
-@import "navigations/navigation";
-
-/*--------------------------------------------------------------
-# Styleguide
---------------------------------------------------------------*/
-@import "styleguide/styleguide";
-
-/*--------------------------------------------------------------
-# Layout
---------------------------------------------------------------*/
-@import "layout/layout";
-
-/*--------------------------------------------------------------
-# Wallpaper
---------------------------------------------------------------*/
-@import "wallpaper/wallpaper";
-
-/*--------------------------------------------------------------
-# Project
---------------------------------------------------------------*/
-@import "project/project";
-
-/*--------------------------------------------------------------
-# Media
---------------------------------------------------------------*/
-@import "media/images";
-
-/*--------------------------------------------------------------
-# Site
---------------------------------------------------------------*/
 @import "site/site";
-
-/*--------------------------------------------------------------
-# Icons
---------------------------------------------------------------*/
-@import "icons/fontastic";
-
-/*--------------------------------------------------------------
-# Icons
---------------------------------------------------------------*/
+@import "navigations/navigations";
 @import "copy/copy";
-
+@import "modules/modules";
+@import "elements/elements";
+@import "media/media";
+@import "styleguide/styleguide";

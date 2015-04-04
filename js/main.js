@@ -8,7 +8,11 @@ $(function () {
 	var myEase = [0.455, 0.030, 0.515, 0.955];
 	var projNav = false;
 
-	$('.mck, .projects').parallax();
+	$('.mck').parallax();
+
+	$.stellar({
+		horizontalOffset: 50
+	});
 
 	/* image res selector */
 	$.fn.showImg = function() {
@@ -53,12 +57,12 @@ $(function () {
 	    })
 	}
 
- //    function stickyWaypoint() {
-	// 	var sticky = new Waypoint.Sticky({
-	// 		element: $('.stick')[0],
-	// 		wrapper: '<div class="sticky-wrapper" />'
-	// 	})
-	// }
+    function stickyWaypoint() {
+		var sticky = new Waypoint.Sticky({
+			element: $('.stick')[0],
+			wrapper: '<div class="sticky-wrapper" />'
+		})
+	}
 
 	function enterProjNav() {
 		$('.project-nav__li').velocity('transition.slideRightIn', { stagger: 100}),

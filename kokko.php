@@ -13,9 +13,6 @@
 	include('header.php');
 	include('inc/side.php');
 ?>
-	<div class="scrolldown">
-		<a href="#project" class="button scrollto">Scroll Down</a>
-	</div>
 	<main role="main" class="main main--portfolio">
 		<?php include('inc/wallpaper.php') ?>
 

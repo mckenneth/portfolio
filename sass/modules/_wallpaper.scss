@@ -4,15 +4,17 @@
 	overflow: hidden;
 
 	.project-logo {
-		width: 320px;
 		position: absolute;
-		left: 50%;
-		top: 50%;
 		z-index: 1;
+		display: block;
+		width: 240px;
+		top: 50%;
+		left: 50%;
 
 		img {
 			width: 100%;
-			@include prefix(transform, translate(-50%,-50%));
+			margin-left: -50%;
+			// @include prefix(transform, translate(-50%,-50%));
 		}
 	}
 
@@ -20,9 +22,10 @@
 		width: 100%;
 		height: 100vh;
 		@include prefix(background-size, cover);
-		background-attachment: fixed;
+		background-attachment: relative;
 		background-position: top center;
 		background-repeat: no-repeat;
+		background-position-x: center!important;
 	}
 
 	&__image {
@@ -44,15 +47,18 @@
 
 @media (max-width: $breakpoint--md) {
 	.wallpaper {
+		height: 100vh;
+		top: 0;
+
 		&__image-holder {
-			@include prefix(background-size, 200%);
-			background-position: top left;
+			@include prefix(background-size, cover);
+			background-position: top center;
+			// position: fixed!important;
 		}
+
 	}
 }
 
 @media (max-width: $breakpoint--sm) {
-	.wallpaper {
-		height: 320px;
-	}
+	
 }
