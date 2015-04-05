@@ -10,9 +10,12 @@ include('inc/side.php')
 
 	<article class="project" id="project--<?php echo $project; ?>">
 		<div class="row--with-border" style="background:#c1471f; height: 100vh;">
+			<p class="h2">Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year.</p>
 			<div class="copy">
-			<p class="h2" style="color: #fff; opacity: 0.8;">Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year.</p><br/><Br/>
-			<section class="copy__brief" style="color:#fff; opacity:0.6;">
+		
+
+			<div class="copy__brief">
+
 				<p>Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year. Stringam works with experienced team, handling a variety of cases in all areas of law, from family and divorce to business, agriculture, and personal injury.</p>
 
 				<p>In early 2013, I was commissioned to develop a custom Wordpress website for Stringam Denecky, taking the initial website design and turning it into a fully functioning responsive website.</p>
@@ -20,8 +23,9 @@ include('inc/side.php')
 				<p>The final website is sophisticated, highly customizable with fully manageable contents.</p>
 				
 
-				</section>
-				<section class="copy__moreinfo">
+				</div>
+
+				<div class="copy__moreinfo">
 				<dl>	
 					<dt>Roles</dt>
 					<dd>Web Development</dd>
@@ -32,7 +36,8 @@ include('inc/side.php')
 					<dt>Link</dt>
 					<dd><a href="http://stringam.ca" target="_blank" title="Stringam Denecky">stringam.ca</a></dd>
 				</dl>
-				</section>
+				</div>
+
 			</div>
 		</div>
 		<div class="row">

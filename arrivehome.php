@@ -8,16 +8,18 @@
 	<?php include('inc/wallpaper.php') ?>
 
 	<article class="project project--<?php echo $project; ?>">
-		<div class="row--with-border row-content">
+		<div class="row--with-border row--content">
+			<p class="h2">Arrive is a Calgary-based home development company known for their energy conscious building techniques.</p>
 			<div class="copy">
-				
-				<p>Arrive is a Calgary-based home development company known for their energy conscious building techniques. Devoted to environmental friendly practices, Arrive uses green materials and pushes for energy and water saving features in their home designs.</p>
+				<div class="copy__brief">
+				<p>Devoted to environmental friendly practices, Arrive uses green materials and pushes for energy and water saving features in their home designs.</p>
 
 				<p>I was hired to develop a custom Wordpress site for Arrive, with an intuitive backend system to manage custom content types.</p>
 
 				<p>The result is a fully functional and easily manageable website with a sophisticated backend that the client was very pleased with.</p>
+				</div>
 				
-				<hr class="hr--mini"/>
+				<div class="copy__moreinfo">
 				<dl>	
 					<dt>Roles</dt>
 					<dd>Front-end Development, CMS Integration</dd>
@@ -30,7 +32,8 @@
 
 					<dt>Link</dt>
 					<dd><a href="http://arrivehome.ca" target="_blank" title="Arrive Home">arrivehome.ca</a></dd>
-				</dl>			
+				</dl>
+				</div>			
 			</div>
 		</div>
 

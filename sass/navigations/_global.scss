@@ -3,6 +3,13 @@
 	bottom: 1%;
 	right: 0;
 	width: 100%;
+
+	.button, .button:link, .button:visited {
+		border: 1px solid #ccc;
+		@include prefix(border-radius, 100%);
+		width: 34px;
+		height: 34px;
+	}
 }
 
 @media (max-width: $breakpoint--md) {

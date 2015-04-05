@@ -9,18 +9,22 @@
 		<?php include('inc/wallpaper.php') ?>
 
 		<article class="project project--<?php echo $project; ?>">
-			<div role="heading" class="row--with-border row-content">
+			<div role="heading" class="row--with-border row--content">
+				<p class="h2">
+				OAK + FORT is a retail brand dedicated to a fused culture of art, fashion and exploration. 
+				</p>
 				<div class="copy">
-					
+					<div class="copy__brief">
 					<p>OAK + FORT is a retail brand dedicated to a fused culture of art, fashion and exploration.  The brand offers curated collections of minimal and thoughtfully designed garments for both men and women.  I had the privilege of working with OAK + FORT as an in-house Graphic designer and Web developer during the beginning of their establishment in Vancouver and Edmonton.</p>
 
 			     	<p>My work consisted of brand strategy implementation, creative direction, web design and development including print productions.
 					</p>
 
 					<p>The company has a strong and clear message and my goal was to implement it prominently on the website. The final product is sleek, clean and approachable that extends the company's core aesthetic and values.</p>
+					</div>
 
 
-					<hr class="hr--mini"/>
+					<div class="copy__moreinfo">
 					<dl>	
 						<dt>Roles</dt>
 						<dd>Art direction &amp; design, User interface, Development</dd>
@@ -28,6 +32,7 @@
 						<dt>Launched</dt>
 						<dd>2011</dd>
 					</dl>
+					</div>
 				</div>
 			</div>
 			

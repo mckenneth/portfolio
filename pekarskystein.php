@@ -9,14 +9,17 @@ include('inc/side.php');
 
 	<article class="project project--<?php echo $project; ?>">
 		<div class="row--with-border row--content">
+			<p class="h2">Pekarsky Stein is Western Canada's leading boutique job search firm</p>
 			<div class="copy">
+				<div class="copy__brief">
 				<p>Pekarsky Stein is Western Canada's leading boutique job search firm. In collaboration with <a href="http://foundrycommunications.ca" target="_blank" title="Foundry Communications">Foundry Communications</a> and <a href="http://brightaidestudios.ca" target="_blank" title="Brightside Studios">Brightside Studios</a>, I was commissioned to develop a custom Wordpress site with a fully integrated job posting board.</p>
 				
 				<p>The website contains a several content types and the goal was to create a backend that will make contents easily manageable by the client after deployment. Furthermore, Pekarsky Stein also features a fully functional job posting board.</p>
 
 				<p>The final result is a customized Wordpress site with fully manageable contents. The job board features filterable data and responsive tables for seamless desktop-to-mobile browsing.</p>
 				
-				<hr class="hr--mini"/>
+				</div>
+				<div class="copy__moreinfo">
 				<dl>	
 					<dt>Roles</dt>
 					<dd>Web development, CMS Implementation</dd>
@@ -27,6 +30,7 @@ include('inc/side.php');
 					<dt>Link</dt>
 					<dd><a href="http://pekarskystein.com" target="_blank" title="Pekarsky Stein">pekarskystein.com</a></dd>
 				</dl>
+				</div>
 			</div>
 		</div>
 

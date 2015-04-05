@@ -23,19 +23,28 @@
 	background: rgba(34,34,34,0.96);
 }
 
-.project--kenton .row-content {
+.project--kenton .row--content {
 	background: #444;
 }
 
-.project--oakandfort .row-content {
+.project--oakandfort .row--content {
 	background: #aeaeae;
 }
 
 
-.project--arrivehome .row-content {
-	background: #422555;
+.project--arrivehome .row--content {
+	background: rgba(111,102,139,0.9);
 }
 
-.project--pekasrkystein .row-content {
-	background: #b2b93d;
+.project--pekarskystein .row--content {
+	background: #dfe0dd;
+
+	.copy {
+		color: #53534a;
+	}
+
+	.h2 {
+		color: #559cbe;
+	}
+	
 }

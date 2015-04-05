@@ -9,7 +9,7 @@ include('inc/side.php')
 	<?php include('inc/wallpaper.php') ?>
 
 	<article class="project" id="project--<?php echo $project; ?>">
-		<div class="row--with-border" style="background:rgba(40,40,64,0.8); height: 100vh; color: #fff;">
+		<div class="row--with-border" style="background:rgba(40,40,64,0.8); height: min-100vh; color: #fff;">
 			<p class="h2">Artesia is an award winning Community developed by Heritage Pointe Properties.</p>
 			<div class="copy">
 				<section class="copy__brief" style="color: #fff; opacity:0.4;">

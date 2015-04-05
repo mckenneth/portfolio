@@ -9,14 +9,17 @@ include('inc/side.php')
 	
 	<article class="project" id="project--<?php echo $project; ?>">
 		<div class="row--with-border row--content">
+			<p class="h2">Redesigning the City of Vancouver's new home on the web</p>
 			<div class="copy">
+				<div class="copy__brief">
 				<p>During my internship at Ion Brand Design, I was fortunate to have been involved in redesigning the new website for the City of Vancouver alongside few of the city's most talented designers.</p>
 
 				<p>I worked closely with the lead designer to develop several prototypes for the new website: the interactive city map and a visually-rich animated event calendar system.</p>
 
 				<p>The completed prototypes, along with the overall design concept were then presented to the city's stakeholders for approval before the final build.</p>
+				</div>
 
-				<hr class="hr--mini"/>
+				<div class="copy__moreinfo">
 				<dl>	
 					<dt>Role</dt>
 					<dd>Concept developer, Graphic Design Intern</dd>
@@ -27,6 +30,7 @@ include('inc/side.php')
 					<dt>Link</dt>
 					<dd><a href="http://vancouver.ca" target="_blank" title="City of Vancouver">vancouver.ca</a></dd>
 				</dl>
+				</div>
 			</div>
 		</div>
 
