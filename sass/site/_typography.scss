@@ -33,11 +33,10 @@ p, dl {
 
 dt {
 	font-size: 1.2rem;
-	font-weight: bold;
+	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing:0.2em;
+	letter-spacing:0.1em;
 	line-height: 1.2em;
-	@include opacity(0.2);
 }
 
 dd {
@@ -54,12 +53,14 @@ dd {
 	font: 100 4em/0.94em $font1;
 	margin-bottom: 0.18em;
 	padding: 0.14em 0 0 0;
+	text-align: left;
 }
 
 .h3 {
 	font: 400 2em/1.25em $font2;
 	margin-bottom: 0.86em;
 	padding: 0.38em 0 0 0;
+	font-weight: 400;
 }
 
 .small {

@@ -1,11 +1,11 @@
 .global-nav {
 	position: absolute;
-	bottom: 1%;
+	bottom: 2rem;
 	right: 0;
 	width: 100%;
 
 	.button, .button:link, .button:visited {
-		border: 1px solid #ccc;
+		border: 1px solid #dedede;
 		@include prefix(border-radius, 100%);
 		width: 34px;
 		height: 34px;
@@ -13,11 +13,9 @@
 }
 
 @media (max-width: $breakpoint--md) {
-	
 	.global-nav {
 		position: absolute;
-		bottom: none; /*6%;*/
-		bottom: 0;
+		bottom: 4rem;
 		right: 0;
 		width: 100%;
 	}

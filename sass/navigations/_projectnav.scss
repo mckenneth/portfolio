@@ -4,8 +4,7 @@
 	position: fixed;
 	left: 0;
 	top: 0;
-	// top: 50%;
-	// transform: translateY(-50%);
+
 	.buttons__li {
 		border-bottom: 1px solid rgba(0,0,0,0.1);
 
@@ -19,11 +18,9 @@
 	}
 }
 
-
 /*--------------------------------------------------------------
 # M E D I A   Q U E R I E S
 --------------------------------------------------------------*/
-
 @media (max-width: $breakpoint--md) {
 	.project-nav {
 		position: relative;

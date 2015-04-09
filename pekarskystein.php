@@ -8,16 +8,17 @@ include('inc/side.php');
 	<?php include('inc/wallpaper.php') ?>
 
 	<article class="project project--<?php echo $project; ?>">
-		<div class="row--with-border row--content">
-			<p class="h2">Pekarsky Stein is Western Canada's leading boutique job search firm</p>
+		<div class="row--content">
 			<div class="copy">
-				<div class="copy__brief">
-				<p>Pekarsky Stein is Western Canada's leading boutique job search firm. In collaboration with <a href="http://foundrycommunications.ca" target="_blank" title="Foundry Communications">Foundry Communications</a> and <a href="http://brightaidestudios.ca" target="_blank" title="Brightside Studios">Brightside Studios</a>, I was commissioned to develop a custom Wordpress site with a fully integrated job posting board.</p>
+				<p class="h2">Providing sophisticated online tools, connecting job seekers with organizations.</p>
+				 </p>
+				<div class="copy__brief text-col-2">
+				<p>Pekarsky Stein is Western Canada's leading boutique search firm. In collaboration with <a href="http://foundrycommunications.ca" target="_blank" title="Foundry Communications">Foundry Communications</a> and <a href="http://brightsidestudios.ca" target="_blank" title="Brightside Studios">Brightside Studios</a>, I was commissioned to develop a custom Wordpress site with a fully integrated job posting board.</p>
 				
-				<p>The website contains a several content types and the goal was to create a backend that will make contents easily manageable by the client after deployment. Furthermore, Pekarsky Stein also features a fully functional job posting board.</p>
+				<p>The website contains several content types and the goal was to create a backend that will make contents easily manageable by the client after deployment.  Pekarsky Stein also features a fully functional job posting board including individual pages for each posting.  Futhermore, the job board comes with a custom function for potential candidates to easily submit their applications directly to a specific recruiter.</p>
 
 				<p>The final result is a customized Wordpress site with fully manageable contents. The job board features filterable data and responsive tables for seamless desktop-to-mobile browsing.</p>
-				
+			
 				</div>
 				<div class="copy__moreinfo">
 				<dl>	

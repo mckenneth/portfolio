@@ -8,15 +8,21 @@
 	<?php include('inc/wallpaper.php') ?>
 
 	<article class="project project--<?php echo $project; ?>">
-		<div class="row--with-border row--content">
-			<p class="h2">Arrive is a Calgary-based home development company known for their energy conscious building techniques.</p>
+		<div class="row--content">
 			<div class="copy">
-				<div class="copy__brief">
-				<p>Devoted to environmental friendly practices, Arrive uses green materials and pushes for energy and water saving features in their home designs.</p>
+				<p class="h2">Innovations and sustainable solutions for Energy conscious future.</p>
+				<div class="copy__brief text-col-2">
+		
+				<p>Arrive is a Calgary-based home development company known for their energy conscious building techniques.  Devoted to environmental friendly practices, Arrive uses green materials and pushes for energy and water saving features in their home designs.</p>
 
-				<p>I was hired to develop a custom Wordpress site for Arrive, with an intuitive backend system to manage custom content types.</p>
+				<p>I was approached by the project manager to develop a custom Wordpress site for Arrive on an absolute emergency situation.</p>
 
-				<p>The result is a fully functional and easily manageable website with a sophisticated backend that the client was very pleased with.</p>
+				<p>The previous developer had become unresponsive mid-way through the project.  Afraid the project will not be launched on time, I was brought on board by the team to salvage the project and to shape it to completion within a week.</p>
+
+				<p>The challenging part is taking over the project without communication and/or documentations from the previous developer.  Upon examining the current state of the project, I've decided that starting over is the better solution in moving forward.</p>
+
+				<p>The result is a fully functional, mobile-ready and easy-to-manage Wordpress website.  Both the team and the client are happy and the project was completed in time for its scheduled launch.</p>
+
 				</div>
 				
 				<div class="copy__moreinfo">

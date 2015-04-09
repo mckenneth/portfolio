@@ -1,6 +1,6 @@
 // Typefaces
 $font1: 'proxima-nova', Arial, sans-serif;
-$font2: 'proxima-nova', 'chaparral-pro', 'Times New Roman', Georgia, serif;
+$font2: 'adobe-caslon-pro', 'chaparral-pro', 'Times New Roman', Georgia, serif;
 
 // Color  Palettes
 // $color1: #eeeeee;
@@ -10,10 +10,12 @@ $font2: 'proxima-nova', 'chaparral-pro', 'Times New Roman', Georgia, serif;
 // $color5: #444444;
 // $text-color: #444;
 
+
+
 $body-bg: #ececec;
 $textlink: #444;
 
-$text: #444; /* default */
+$text: rgba(0, 0, 0, 0.7); /* default */
 $text2: #666;
 $text3: #777;
 $text4: #888;
@@ -37,4 +39,4 @@ $dots-color: #ccc;
 /* Breakpoints */
 $breakpoint--sm: 480px;
 $breakpoint--md: 768px;
-$breakpoint--lg: 1023px;
+$breakpoint--lg: 1024px;

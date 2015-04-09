@@ -22,7 +22,7 @@
         }
 
         body {
-            background: #eee;
+            background: #f0f0f0;
         }
 
         .nav {
@@ -49,7 +49,7 @@
     <script src="js/modernizr-2.8.3.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="js/detectmobilebrowser.js"></script>
+    <script src="js/ismobile.js"></script>
 
 </head>
 <?php include('function.php');?>

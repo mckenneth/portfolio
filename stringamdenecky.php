@@ -8,13 +8,13 @@ include('inc/side.php')
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">
 	<?php include('inc/wallpaper.php') ?>
 
-	<article class="project" id="project--<?php echo $project; ?>">
-		<div class="row--with-border" style="background:#c1471f; height: 100vh;">
-			<p class="h2">Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year.</p>
+	<article class="project project--<?php echo $project; ?>">
+		<div class="row--content">
+			
 			<div class="copy">
-		
+			<p class="h2">Making law exciting and prett</p>
 
-			<div class="copy__brief">
+			<div class="copy__brief text-col-2">
 
 				<p>Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year. Stringam works with experienced team, handling a variety of cases in all areas of law, from family and divorce to business, agriculture, and personal injury.</p>
 
@@ -22,6 +22,8 @@ include('inc/side.php')
 
 				<p>The final website is sophisticated, highly customizable with fully manageable contents.</p>
 				
+
+
 
 				</div>
 

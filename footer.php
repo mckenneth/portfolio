@@ -8,10 +8,11 @@
         <script src="js/jquery.parallax.min.js"></script>
         <!-- script src="js/jquery.easing.1.3.js"></script -->
         
-        <script src="js/jquery.waypoints.min.js"></script>
-        <script src="js/shortcuts/sticky.min.js"></script> 
+        
+        <!-- script src="js/shortcuts/inview.min.js"></script --> 
         <script src="js/jquery.stellar.min.js"></script>
         <script src="js/nanobar.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
         <script src="js/main.js"></script>
 
         <script>

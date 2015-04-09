@@ -1,3 +1,78 @@
+.arrow__link {
+	display: block!important;
+	width: 60px;
+	height: 100px;
+	background: transparent;
+	z-index: 100;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%)!important;
+	-moz-transform: translateX(-50%)!important;
+	-ms-transform: translateX(-50%)!important;
+	-o-transform: translateX(-50%)!important;
+	transform: translateX(-50%)!important;
+	border: 0;
+
+	&:link,
+	&:visited {
+		@extend .arrow__link;
+	}
+}
+
+.arrow--down {
+	display: inline-block;
+	width: 0px!important;
+	height: 100px;
+	background: #fff;
+	position: absolute;
+	z-index: 0;
+	left: 50%;
+	bottom: 2rem;
+	font-size: 0;
+	border-left:0px solid #fff;
+
+	&:before {
+		@include rotate(135deg);
+		right: 7px;
+	}
+	&:after {
+		@include rotate(45deg);
+		left: 6px;
+	}
+
+	&:before,
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 1px;
+		height: 20px;
+		background: #fff;
+		bottom: -3px;
+	}
+}
+
+.scrollto {
+	@include trans(200ms);
+	padding: 1rem 0;
+	font-size: 1.4rem;
+	cursor: pointer;
+
+	.text {
+		@extend .small;
+		letter-spacing: 0.06em;
+	}
+
+	&:hover {
+		border-bottom: 1px solid #ccc;
+		cursor: pointer;
+	}
+}
+
+
+
+
 /* Grouped Buttons */
 .buttons {
 	list-style: none;
@@ -39,41 +114,4 @@
 		color: $text;
 		background: $border3;
 	}
-}
-
-.button-projects {
-	position: absolute; 
-	right: 10%;
-	bottom: 10%; 
-}
-
-.scrollto {
-	@include trans(200ms);
-	padding: 1rem 0;
-	font-size: 1.4rem;
-	cursor: pointer;
-
-	.text {
-		@extend .small;
-		letter-spacing: 0.06em;
-	}
-
-	&:hover {
-		border-bottom: 1px solid #ccc;
-		cursor: pointer;
-	}
-}
-
-.scrolldown {
-	width: 80px;
-	height: 80px;
-	border: 1px solid #ccc;
-	position: absolute;
-	top: 60%;
-	right: 10%;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	-ms-border-radius: 100%;
-	border-radius: 100%;
-	z-index: 1000000;
 }

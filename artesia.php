@@ -8,16 +8,17 @@ include('inc/side.php')
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">
 	<?php include('inc/wallpaper.php') ?>
 
-	<article class="project" id="project--<?php echo $project; ?>">
-		<div class="row--with-border" style="background:rgba(40,40,64,0.8); height: min-100vh; color: #fff;">
-			<p class="h2">Artesia is an award winning Community developed by Heritage Pointe Properties.</p>
+	<article class="project project--<?php echo $project; ?>">
+		<div class="row--content">
+			
 			<div class="copy">
-				<section class="copy__brief" style="color: #fff; opacity:0.4;">
+				<p class="h2">Artesia is an award winning Community developed by Heritage Pointe Properties.</p>
+				<section class="copy__brief text-col-2">
 				<p>Artesia is an award winning Community developed by Heritage Pointe Properties. I was brought on board to build a custom Wordpress CMS site that provides users an online platform to learn about Artesia in an informative and engaging way.</p>
 				
 				<p>As the lead developer, I worked closely with the graphic designer and user interface designer to develop an online platform, rich with beautiful contents, advanced features and functionalities.</p>
 
-				<p>One of the main challenges is to implement a responsive community map that provides potential clients and future property owners with up-to-date information about the lots and it's availability through a visual tooltips. Other features implemented are smooth content scrolling, carousel gallery, dynamic sub-menu, customized newsletter system, and a blogging platform.</p>
+				<p>One of the main challenges is the implemention of a responsive community map intended to provide potential clients and future property owners an up-to-date information about the lots and their availability. Other features implemented are smooth content scrolling, carousel gallery, dynamic sub-menu, customized newsletter system, and a blogging platform.</p>
 
 				<p>The end result is informative, highly engaging and most importantly, easily manageable for the client.</p>
 

@@ -1,10 +1,13 @@
 <?php 
 	$project = 'kokko';
-	$copyBrief = "<p>Kokko is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. </p>
+	$copyBrief = "
+					<p>KOKKO is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. With the company's growing demand for online shopping experience, I was brought on board to help launch the company's first digital storefront.</p>
 
-					<p>With growing demand for online shopping experience, I was brought on board to help launch the company's first digital storefront.  The website showcases a broad range of brands for both men and women, from ready-to-wear, street-wear, to high-fashion.  My approach is to simplify the concept and focus on the key elements that consumers value the most: Products, Usability and Accessibility.</p>
+					<p>The website showcases a broad range of brands for both men and women, ranging from ready-to-wear, high- street-wear, to exclusive high-fashion. The wide variety in style and price-point in Kokko's product offerings presented a great challege in devising a cohesive direction that will showcases the all the different brands while respecting Kokko's brand identity.</p>
 
-					<p>The result is an intuitive website that reflects the company's essence: minimal, inviting and fully shopable on every screen.  KOKKO successfully expanded its business through its new digital storefront.</p>";
+					 <p>My approach was to simplify the concept and focus on the key elements that KOKKO's consumer value the most: Products, Usability and Accessibility.</p>
+
+<p>The result is an intuitive website that reflects the company's essence: minimal, inviting and fully shopable on every screen, across several currencies and languages.  KOKKO successfully expanded its business through it's new digital storefront.</p>";
 
 	$roles = "Art direction &amp; design, User interface, Development";
 	$launched = "2013";
@@ -16,21 +19,19 @@
 	<main role="main" class="main main--portfolio">
 		<?php include('inc/wallpaper.php') ?>
 
-		<article class="project project--<?php echo $project; ?>" id="project">	
-			<div role="heading" class="row row--content">					
+		<article class="project project--<?php echo $project; ?>">	
+			<div role="heading" class="row--content">					
 				<div class="copy">
-					<p class='h2' style="padding:2rem; width:80%;">Kokko is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. </p>
-					<div class="copy__brief" style="color: rgba( 255, 255, 255, 0.5);">
+					<p class='h2'>Minimal, inviting and fully shopable on every screen, across several currencies and languages.</p>
+					<div class="copy__brief text-col-2">
 						<?php echo $copyBrief; ?>
 					</div>
 					<div class="copy__moreinfo">
 						<dl>	
 							<dt>Roles</dt>
 							<dd><?php echo $roles ?></dd>
-							<hr />
 							<dt>Launched</dt>
 							<dd><?php echo $launched ?></dd>
-							<hr />
 							<dt>Link</dt>
 							<dd><a href="http://<?php echo $thelink ?>" target="_blank" title="KOKKO - Luxury Boutique"><?php echo $thelink ?></a></dd>
 						</dl>
@@ -80,7 +81,7 @@
 				</div>
 			</div>
 
-		<?php include('inc/scrollup.php') ?>
+			<?php include('inc/scrollup.php'); ?>
 		</article>
 	</main>
 <?php include('footer.php') ?>

@@ -1,26 +1,5 @@
-.wallpaper--kokko {
-	.project-logo {
-		width: 240px!important;
-	}
-}
-
-.wallpaper--kenton .project-logo {
-
-}
-
-.wallpaper--arrivehome > .project-logo {
-	width: 240px!important;
-}
-
-
-.row--content {
-	min-height: 80vh;
-	@include clearfix;
-	background: #222;
-}
-
 .project--kokko .row--content {
-	background: rgba(34,34,34,0.96);
+	background: #13171b;
 }
 
 .project--kenton .row--content {
@@ -28,23 +7,26 @@
 }
 
 .project--oakandfort .row--content {
-	background: #aeaeae;
+	background: #ababad;
 }
 
+.project--artesia .row--content {
+	background: #2b2a44 /* #343255 */;
+}
+
+.project--cityofvancouver .row--content {
+	background: #444;
+}
+
+.project--stringamdenecky .row--content {
+	background: #82290d;
+}
 
 .project--arrivehome .row--content {
-	background: rgba(111,102,139,0.9);
+	background: #605315;
 }
 
 .project--pekarskystein .row--content {
 	background: #dfe0dd;
-
-	.copy {
-		color: #53534a;
-	}
-
-	.h2 {
-		color: #559cbe;
-	}
-	
+	color: #000;
 }

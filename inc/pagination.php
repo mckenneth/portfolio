@@ -3,7 +3,7 @@
     <div class="project-nav stick">
     <ul class="buttons <?php echo $projNavclass ?>">
         <li class="project-nav__li buttons__li project-nav__li--index">
-        	<a class="project-nav__link project-nav__link--index button" href="<?php echo $backtohome ?>" title="View All"><i class="icon-grid"></i></a>
+        	<a class="project-nav__link project-nav__link--index button" href="<?php echo $backtohome ?>" title="View All"><i class="icon-projects"></i></a>
         </li>
 
         <?php if ($nextproject != '') { ?>
