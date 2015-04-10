@@ -137,15 +137,17 @@ $(function () {
 
 	//---------- LOADING PAGE ----------//
 	if(!isMobile()) {
+		nanobar.go(100),
+
 		$.stellar({
 			horizontalOffset: 50
 		}),
-		nanobar.go(100),
+		
 
 		$(window).scroll(function(){
 
 			/* fade wallpaper image when scroll */
-			var m = 1 - ($(window).scrollTop() / (vh * 1.5));
+			var m = 1 - ($(window).scrollTop() / (vh * 1));
 			$('.wallpaper__image-holder').css({'opacity':m});
 
 			/* animate projNav in and out */
@@ -162,7 +164,8 @@ $(function () {
 		});
 	}
 	// if(isMobile()) alert("Mobile"); else alert("Not Mobile");
-	
+
+
 
 	$(window).load(function(){
 		if(window.location.href.indexOf('about') > -1) {

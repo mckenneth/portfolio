@@ -1,32 +1,38 @@
-.project--kokko .row--content {
-	background: #13171b;
-}
+// .wallpaper--kokko {
+// 	background: #13171b;
+// }
 
-.project--kenton .row--content {
-	background: #444;
-}
+// .wallpaper--kenton {
+// 	background: #444;
+// }
 
-.project--oakandfort .row--content {
-	background: #ababad;
-}
+// .wallpaper--artesia {
+// 	background: #2b2a44 /* #343255 */;
+// }
 
-.project--artesia .row--content {
-	background: #2b2a44 /* #343255 */;
-}
+// .wallpaper--cityofvancouver {
+// 	background: #444;
+// }
 
-.project--cityofvancouver .row--content {
-	background: #444;
-}
+// .wallpaper--stringamdenecky {
+// 	background: #82290d;
+// }
 
-.project--stringamdenecky .row--content {
-	background: #82290d;
-}
+// .wallpaper--arrivehome {
+// 	background: #605315;
+// }
 
-.project--arrivehome .row--content {
-	background: #605315;
-}
+// .wallpaper--pekarskystein {
+// 	background: #dfe0dd;
+// }
 
-.project--pekarskystein .row--content {
-	background: #dfe0dd;
-	color: #000;
+// .wallpaper--oakandfort {
+// 	background: #ababad;
+// }
+
+
+@media (max-width: $breakpoint--md) {
+	.wallpaper--oakandfort .wallpaper__image-holder {
+		background-position-x: 0!important;
+	}
 }
