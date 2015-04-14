@@ -12,10 +12,10 @@ include('inc/side.php')
 		<div class="row--content">
 			
 			<div class="copy">
-				<p class="h2">Created to function in tandem with its natural surroundings, exactly the way Mother Nature intended.</p>
+				<p class="h2">Providing the community an online platform to explore Artesia.</p>
 				<section class="copy__brief text-col-2">
 				<p>Artesia is an award winning Community developed by Heritage Pointe Properties. In collaboration with
-				<a href="http://brightsidestudios.ca">BrighsideStudios.ca</a>, I was commissioned to build a custom Wordpress site that provides users an online platform to learn about Artesia in an informative and engaging way.</p>
+				<a href="http://brightsidestudios.ca" target="_blank">BrighsideStudios.ca</a>, I was involved in developing Artesia's website in the Spring of 2012.  Our main goal is to provide users with an online platform to learn about Artesia in an informative and engaging way.</p>
 				
 				<p>As the lead developer, I worked closely with the graphic designer and user interface designer to develop an online platform, rich with beautiful contents, advanced features and functionalities.</p>
 

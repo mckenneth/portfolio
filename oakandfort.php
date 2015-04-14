@@ -13,12 +13,14 @@
 				<div class="copy">
 					<p class="h2">Modern minimalism inspired by art, culture, fashion and exploration.</p>
 					<div class="copy__brief text-col-2">
-					<p>OAK + FORT is a retail brand dedicated to a fused culture of art, fashion and exploration.  The brand offers curated collections of minimal and thoughtfully designed garments for both men and women.  I had the privilege of working with OAK + FORT as an in-house Graphic designer and Web developer during the beginning of their establishment in Vancouver and Edmonton.</p>
+					<p>OAK + FORT is a retail brand dedicated to a fused culture of art, fashion and exploration.  The brand offers curated collections of minimal and thoughtfully designed garments for both men and women.</p>
 
-			     	<p>My work consisted of brand strategy implementation, creative direction, web design and development including print productions.
+					<p>I had the privilege of working with OAK + FORT as an in-house Graphic designer and Web developer during the beginning of their establishment in Vancouver and Edmonton.</p>
+
+			     	<p>Working in small team, my work consisted of brand strategy implementation, creative direction, web design and development including print design and marketing.
 					</p>
 
-					<p>The company has a strong and clear message and my goal was to implement it prominently on the website. The final product is sleek, clean and approachable that extends the company's core aesthetic and values.</p>
+					<p>The company has a strong and clear message and my goal was to implement it across all mediums, prominently on the website. The final product is sleek, clean and approachable that extends the company's core aesthetic and values.</p>
 					</div>
 
 

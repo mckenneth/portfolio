@@ -3,13 +3,14 @@
 	$copyBrief = "
 					<p>KOKKO is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. With the company's growing demand for online shopping experience, I was brought on board to help launch the company's first digital storefront.</p>
 
-					<p>The website showcases a broad range of brands for both men and women, ranging from ready-to-wear, high-street-wear, to exclusive high-fashion. Kokko's wide variety of product offerings presented a great challege.</p>
+					<p>The website showcases a broad range of brands for both men and women, ranging from ready-to-wear, high-street-wear, to exclusive high-fashion.  The goal is to create a platform that will encompass all the brands while keeping Kokko's own unique identity intack.  Kokko's wide variety of product offerings presented a great challege. </p>
 
-					 <p>My approach was to simplify the concept and focus on the key elements that KOKKO's consumer value the most: Products, Usability and Accessibility.</p>
+					 <p>My approach was to simplify the concept and focus on the key elements that KOKKO's consumer value the most: Products, Usability and Accessibility.  The website utilizes big fashion images and clean typography to convey elegance and luxury.  The interface is kept bare and simple with familiar navigation patterns.
 
-<p>The result is an intuitive website that reflects the company's essence: minimal, inviting and fully shopable on every screen, across several currencies and languages.  KOKKO successfully expanded its business through it's new digital storefront.</p>";
 
-	$roles = "Art direction &amp; design, User interface, Web Development";
+<p>The result is an intuitive website that reflects the company's essence: minimal, inviting and fully shopable on every screen, across several currencies and languages.  KOKKO successfully expanded its business through its new digital storefront.</p>";
+
+	$roles = "Art direction &amp; design, User interface design, Web development";
 	$launched = "2013";
 	$thelink = "kokko.me";
 

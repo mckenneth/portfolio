@@ -16,13 +16,11 @@ include('inc/side.php')
 
 			<div class="copy__brief text-col-2">
 
-				<p>Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year.</p>
+				<p>Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year.  Stringam works with experienced team, handling variety of cases in all areas of law, from family and divorce to business, agriculture, and personal injury.</p>
 
-				<p>Stringam works with experienced team, handling variety of cases in all areas of law, from family and divorce to business, agriculture, and personal injury.</p>
+				<p>Stringam Denecky needed a website that reflects their longstanding tradition of excellence in the legal service industry.  <!-- The goal is to provide the same service that they are known for online and to reinforce their position in the market. --></p>
 
-				<p>In early 2013, I was commissioned to develop a custom Wordpress website for Stringam Denecky.
-				Taking the initial design, I worked on web development and feature implementation including custom form submission.
-				</p>
+				<p>I was commissioned to develop Stringam's new website in the early 2013 alongside <a href="http://foundrycommunications.ca/" target="_blank">Foundry Communications</a> and <a href="http://brightsidestudios.ca" target="_blank">Brightside Studios</a>.  Provided with the initial design, I worked on web development and CMS implementation and various web features.</p>
 
 				<p>The final website is sophisticated, highly customizable with fully manageable contents.</p>
 

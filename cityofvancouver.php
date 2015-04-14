@@ -18,7 +18,7 @@ include('inc/side.php')
 
 				<p>I worked closely with the lead designer to develop several prototypes for the new website: the interactive city map and a visually-rich animated event calendar system.</p>
 
-				<p>On the footer section of every page, the city's neighboorhoods are listed in Alphabetical order with its correspinding map on the right.  The map will be highlighted when hovering over its correspoinsing name and vice versa.  More over, the event calender was one of my favourite feature of the redesign, because it was very visually appealing.  Rich colours corrresponds to the type of event listed, and they would pile up like a stack of pink balls. </p>
+				<p>On the footer section of every page, the city's neighboorhoods are listed in alphabetical order with its corresponding map on the right.  The map is hightlighted when hovering over its corresponding name and vice versa.  On the other hand, the event calender was an absolute visual treat. Rich coloured dots corrrespond to different types of event, and they pile up accrodingly like a stack of pin balls.</p>
 
 				<p>The completed prototypes, along with the overall design concept were then presented to the city's stakeholders for approval before the final build.</p>
 

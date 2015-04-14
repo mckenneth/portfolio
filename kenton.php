@@ -14,8 +14,9 @@
 						<p>KENTON magazine is a leading, global online fashion and lifestyle magazine for young professionals.  Bringing readers to the forefront of fashion, culture and society, KENTON magazine delivers original content from an industry insider’s perspective.</p>
 
 						<p>To celebrate a year of successful online publishing, I was commissioned to help redesign KENTON for their growing mobile users.</p>
-
-						<p>Provided with the initial design concept for desktop, the first challenge was to design the website for tablet and mobile browsing.  In addition to responsive web design, I was also responsible for Kenton Magazine's web development and Wordpress implementation.</p>
+					
+						<p>The new website is fully responsive, featuring a refreshed editorial page, visually rich archive pages with featured article slides, and a non-intrusive related articles. These newly introduced features showed improved usability and overall engagement.
+						</p>
 
 						<p>KENTON was relaunched with a refreshed visual design and a sleek user interface, re-imagined for modern and mobile audience.</p>
 					</div>	

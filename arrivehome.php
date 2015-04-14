@@ -15,7 +15,7 @@
 		
 				<p>Arrive is a Calgary-based home development company known for their energy conscious building techniques.  Devoted to environmental friendly practices, Arrive uses green materials and pushes for energy and water saving features in their home designs.</p>
 
-				<p>I was approached by the project manager to develop a custom Wordpress site for Arrive on an absolute emergency situation. I was brought on board by the team to salvage the project and to shape it to completion within a week</p>
+				<p>I was approached by the project manager to develop a custom Wordpress site for Arrive on an absolute emergency situation. I was brought on board by the team to salvage the project and to shape it to completion within a week.</p>
 
 
 				<p>Upon examining the current state of the project, I've decided that starting over is the better solution in moving forward.</p>
