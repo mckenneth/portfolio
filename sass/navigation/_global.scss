@@ -9,6 +9,7 @@
 		@include prefix(border-radius, 100%);
 		width: 34px;
 		height: 34px;
+		color: rgba(0,0,0,0.6);
 	}
 }
 
@@ -18,5 +19,18 @@
 		bottom: 4rem;
 		right: 0;
 		width: 100%;
+	}
+}
+
+@media (max-width: $breakpoint--sm) {
+	.global-nav {
+		bottom: 4px;
+		width: 40px;
+	}
+
+	.button, .button:link, .button:visited {
+		border: 0!important;
+		height: 44px;
+		width: 44px;
 	}
 }

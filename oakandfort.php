@@ -25,7 +25,7 @@
 					<div class="copy__moreinfo">
 					<dl>	
 						<dt>Roles</dt>
-						<dd>Art direction &amp; design, User interface, Development</dd>
+						<dd>Art direction &amp; design, User interface, Web Development</dd>
 
 						<dt>Launched</dt>
 						<dd>2011</dd>
@@ -35,19 +35,19 @@
 			</div>
 			
 			<div class="row">
-				<div class="image">
+				<div class="image--lg">
 					<img class="showImg lazy" src="img/spacer.gif" data-original="assets/oakandfort/home_imac.jpg">
 				</div>
 			</div>
 
-			<div class="row alignright">
-				<div class="image" style="margin-right:-40%;">
+			<div class="row">
+				<div class="image--lg">
 					<img class="showImg lazy" src="img/spacer.gif" data-original="assets/oakandfort/home_macbook.jpg">
 				</div>
 			</div>
 		    
 		    <div class="row">
-		        <div class="image">
+		        <div class="image--lg">
 		        	<img class="showImg lazy" src="img/spacer.gif" data-original="assets/oakandfort/productzoom_macbook.jpg">
 		        </div>
 		    </div>

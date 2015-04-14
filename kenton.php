@@ -9,18 +9,17 @@
 		<article class="project project--<?php echo $project; ?>">
 			<div role="heading" class="row--content">
 				<div class="copy">
-					<p class="h2">Rethinking online Fashion and Lifestyle publication for modern and mobile audience.</p>
+					<p class="h2">Re-imagining online publication for modern and mobile audience.</p>
 					<div class="copy__brief text-col-2">
-				        
-						<p>KENTON magazine is a leading, global online fashion and lifestyle magazine for young professionals.
-						<p>Bringing readers to the forefront of fashion, culture and society, KENTON magazine delivers original content from an industry insider’s perspective.  To celebrate a year of successful online publishing, I was commissioned to help redesign KENTON for their growing mobile users.</p>
+						<p>KENTON magazine is a leading, global online fashion and lifestyle magazine for young professionals.  Bringing readers to the forefront of fashion, culture and society, KENTON magazine delivers original content from an industry insider’s perspective.</p>
 
-<p>Having only been provided with the initial concept for desktop, my first challenge was to design the website for tablet and mobile browsing.  In addition, I was also responsible for web development and Wordpress implementation.</p>
+						<p>To celebrate a year of successful online publishing, I was commissioned to help redesign KENTON for their growing mobile users.</p>
 
-<p>KENTON was relaunched with a refreshed visual design and a sleek user interface, re-imagined for modern and mobile audience.</p>
+						<p>Provided with the initial design concept for desktop, the first challenge was to design the website for tablet and mobile browsing.  In addition to responsive web design, I was also responsible for Kenton Magazine's web development and Wordpress implementation.</p>
 
+						<p>KENTON was relaunched with a refreshed visual design and a sleek user interface, re-imagined for modern and mobile audience.</p>
+					</div>	
 
-					</div>					
 					<div class="copy__moreinfo">
 						<dl>	
 							<dt>Roles</dt>
@@ -36,13 +35,13 @@
 				</div>
 			</div>
 	        <div class="row">
-	        	<div class="image">
+	        	<div class="image--lg">
 	        		<img class="showImg lazy" src="img/spacer.gif" data-original="assets/kenton/kenton_001.jpg">
 	        	</div>
 	        </div>
 	        
 			<div class="row">
-				<div class="image image--lg">
+				<div class="image--lg">
 	        		<img class="showImg lazy" src="img/spacer.gif" data-original="assets/kenton/kenton_002.jpg">
 	        	</div>
 	        </div>
@@ -53,7 +52,7 @@
 	        	</div>
 	        </div>
 
-	        <div class="row--left">
+	        <div class="row">
 				<div class="image image--md">
 	        		<img class="showImg lazy" src="img/spacer.gif" data-original="assets/kenton/kenton_004.jpg">
 	        	</div>

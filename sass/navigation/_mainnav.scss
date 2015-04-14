@@ -18,19 +18,13 @@
 	}
 }
 
-@media (max-width: $breakpoint--md) {
-	.nav {
-		width: 80px;
-	}
-}
-
 @media (max-width: $breakpoint--sm) {
 	.nav {
-		
-		height: 64px;
+		height: 44px;
+		width: 100%;
 		top: 0;
 		z-index: 10;
-		background: rgba(238,238,238,0.95);
-		padding: 1.6rem 0 0rem;
+		background: #f5f5f5;
+		padding: 0;
 	}
 }

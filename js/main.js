@@ -10,7 +10,6 @@ $(function () {
 
 	$('.mck').parallax();
 
-
 	/* image res selector */
 	$.fn.showImg = function() {
 		var screenW = screen.width;
@@ -32,8 +31,6 @@ $(function () {
         });
     }
     $('.showImg').showImg();
-
-
 
 	//---------- [ LAZY LOADER ] ----------//
 	$('.lazy').lazyload({
@@ -88,7 +85,6 @@ $(function () {
 		})
 	}
 
-
 	function goto(x) {
 		var href = x;
 		event.preventDefault(),	
@@ -104,27 +100,26 @@ $(function () {
 		about = true;
 		event.preventDefault(),
 		window.history.pushState('object or string', 'Title', 'about'),
-		exitProjNav(),
-		$('#about').find('.icon-info').removeClass().addClass('icon-close'),
-		$('.window').load('inc/about.php').fadeIn(),
 		
 		setTimeout(function() {
 			$('.main').velocity({right:'90%'}, "easeOutElastic")
-		
-		}, 200), noScroll()
+		}, 200),
+
+		$('.main').on('click', function(){
+			slideInMain()
+		});
+
 	}
 
 	function slideInMain() {
 		about = false;
 		event.preventDefault(),
 		window.history.pushState('object or string', 'Title', curl ),
-		enterProjNav(),
-		$('#about').find('.icon-close').removeClass().addClass('icon-info'),
 
 		setTimeout(function() {
 			$('.main').velocity({right:"0%"}, myEase, 400).css({'transform':'none'}),
 			$('.window').fadeOut(400)
-		}, 200), yesScroll()
+		}, 200)
 	}
 
 	function pageloading() {
@@ -143,7 +138,6 @@ $(function () {
 			horizontalOffset: 50
 		}),
 		
-
 		$(window).scroll(function(){
 
 			/* fade wallpaper image when scroll */
@@ -158,7 +152,7 @@ $(function () {
 			} else {
 				if (projNav == true ) {
 					$('.project-nav__li').velocity('transition.slideDownOut', 400),
-			projNav = false;
+					projNav = false;
 				}	
 			}
 		});
@@ -197,12 +191,16 @@ $(function () {
 
 	$('#about').on('click', function(){
 		if (!about) {	
-			slideOutMain()
+			slideOutMain(),
+			$('#about').find('.icon-info').removeClass().addClass('icon-close'),
+			$('.window').load('inc/about.php').fadeIn(),
+			exitProjNav()
+
 		} else {
-			slideInMain()
+			slideInMain(),
+			$('#about').find('.icon-close').removeClass().addClass('icon-info')
 		}
 	});
-
 
 
 	$('.item__link').on('mouseenter', function(){
@@ -212,8 +210,6 @@ $(function () {
 		$(this).find('.item__header').velocity('reverse', 400),
 		$(this).siblings('.item__img').velocity('reverse', 400)
 	});
-
-
 
 });
 

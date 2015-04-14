@@ -22,6 +22,20 @@
 		padding: 0 0 0 1rem;
 		color: $dots-color;
 		font-size: 5rem;
-		letter-spacing: 0.04em;
 	}
+}
+
+@media (max-width: $breakpoint--sm) {
+	.browser {
+		padding: 0 2%;
+
+		&:before {
+			height: 20px;
+			padding: 0 0 0 0.5rem;
+			letter-spacing: 0;
+			font-size: 4rem;
+			position: relative;
+		}
+	}
+
 }

@@ -6,7 +6,7 @@ a, a:link {
 	text-decoration: none;
 	border-bottom: 1px solid #ddd;
 	@include trans(100ms);
-	color: $text2;
+	color: rgba(68,68,68,0.5);
 }
 
 a:hover {
@@ -33,3 +33,11 @@ hr {
 		width: 10%;
 	}
 }
+
+::-moz-selection {
+	background: rgba(68,68,68,0.2);
+}
+::selection {
+	background: rgba(68,68,68,0.2);
+}
+

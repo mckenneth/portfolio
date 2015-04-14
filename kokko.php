@@ -3,13 +3,13 @@
 	$copyBrief = "
 					<p>KOKKO is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. With the company's growing demand for online shopping experience, I was brought on board to help launch the company's first digital storefront.</p>
 
-					<p>The website showcases a broad range of brands for both men and women, ranging from ready-to-wear, high- street-wear, to exclusive high-fashion. The wide variety in style and price-point in Kokko's product offerings presented a great challege in devising a cohesive direction that will showcases the all the different brands while respecting Kokko's brand identity.</p>
+					<p>The website showcases a broad range of brands for both men and women, ranging from ready-to-wear, high-street-wear, to exclusive high-fashion. Kokko's wide variety of product offerings presented a great challege.</p>
 
 					 <p>My approach was to simplify the concept and focus on the key elements that KOKKO's consumer value the most: Products, Usability and Accessibility.</p>
 
 <p>The result is an intuitive website that reflects the company's essence: minimal, inviting and fully shopable on every screen, across several currencies and languages.  KOKKO successfully expanded its business through it's new digital storefront.</p>";
 
-	$roles = "Art direction &amp; design, User interface, Development";
+	$roles = "Art direction &amp; design, User interface, Web Development";
 	$launched = "2013";
 	$thelink = "kokko.me";
 
@@ -22,7 +22,7 @@
 		<article class="project project--<?php echo $project; ?>">	
 			<div role="heading" class="row--content">					
 				<div class="copy">
-					<p class='h2'>Minimal, inviting and fully shopable on every screen, across several currencies and languages.</p>
+					<p class='h2'>Luxury online boutique for style savvy consumer.</p>
 					<div class="copy__brief text-col-2">
 						<?php echo $copyBrief; ?>
 					</div>
@@ -52,7 +52,7 @@
 			</div>
 	
 			<div class="row">
-				<div class="image image--md" style="padding: 5% 4% 5% 2%;">
+				<div class="image image--lg">
 					<img class="showImg lazy" src="img/spacer.gif" data-original="assets/kokko/kokko_cat.jpg">
 				</div>
 			</div>
@@ -63,14 +63,14 @@
 				</div>
 			</div>
 
-			<div class="row row--aligncenter">
+			<div class="row">
 				<div class="image image--cropped">		
 						<img class="showImg lazy cropped" src="img/spacer.gif" data-original="assets/kokko/kokko_product_imac.jpg">
 				</div>
 			</div>
 
-			<div class="row row--alignright">
-				<div class="image image--md">	
+			<div class="row">
+				<div class="image image--lg">	
 					<img class="showImg lazy" src="img/spacer.gif" data-original="assets/kokko/kokko_product_ipad.jpg">
 				</div>
 			</div>

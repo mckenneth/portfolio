@@ -11,12 +11,12 @@
 	@include clearfix;
 
 	a, a:link, a:visited {
-		color: rgba(0, 0, 0, 0.8);
+		color: rgba(68, 68, 68, 0.5);
 	}
 	
 	.h2 {
 		margin-bottom: 4rem;
-		color: rgba(0,0,0,0.6);
+		color: rgba(68, 68, 68, 1);
 	}
 
 	&__brief {
@@ -55,12 +55,15 @@
 @media (max-width: $breakpoint--lg) {
 
 	.copy__brief {
+		width: 100%;
 	}
 
 	.copy__moreinfo {
-		float: none;
-		margin-top: 4rem;
-		padding: 0;
+		float: left;
+		margin-top: 6rem;
+		padding: 0 4rem 0 0;
+		width: 50%;
+		clear:both;
 	}
 	
 	.row--content {
@@ -76,10 +79,14 @@
 	}
 	.copy__brief {
 		width: 100%;
-
 	}
+
 	.row--content {
 		height: auto!important;
+	}
+
+	.text-col-2 {
+		@include prefix(column-count, 1);
 	}
 }
 
@@ -90,19 +97,26 @@
 		line-height: 1em;
 		margin-bottom: 1rem;
 	}
+
 	.copy__brief {
 		width: 100%;
 	}
+
 	.copy__moreinfo {
 		width: 50%;
+		margin-top: 4rem;
+		padding: 0;
 	}
 
 	.copy {
 		margin:0;
 		width: 100%;
-		line-height: 1.6em;
+		line-height: 1.4em;
+
+		.h2 {
+			margin-bottom: 2rem;
+		}
 	}
-	.text-col-2 {
-		@include prefix(column-count, 1);
-	}
+
+	
 }

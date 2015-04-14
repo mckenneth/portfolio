@@ -51,8 +51,8 @@
 		@include trans(200ms);
 
 		&:hover {
-			border-bottom: 1px solid #fff;
-			color: #fff;
+			border-bottom: 1px solid rgba(68,68,68,0.5);
+			color: rgba(68,68,68,0.5);
 		}
 	}
 

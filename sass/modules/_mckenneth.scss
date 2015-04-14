@@ -20,3 +20,9 @@
 		margin: 100px 0 240px -360px;
 	}
 }
+
+@media (max-width: $breakpoint--sm) {
+	.mck {
+		display: none;
+	}
+}

@@ -115,3 +115,11 @@
 		background: $border3;
 	}
 }
+
+
+@media (max-width: $breakpoint--sm) {
+
+	.arrow__link {
+		display: none;
+	}
+}

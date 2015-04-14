@@ -18,3 +18,12 @@
 		}
 	}
 }
+
+@media (max-width: $breakpoint--sm) {
+
+	.intro {
+		.intro__text {
+			margin: 2rem!important;
+		}
+	}
+}

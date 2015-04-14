@@ -31,8 +31,33 @@
 // }
 
 
-@media (max-width: $breakpoint--md) {
+@media (max-width: $breakpoint--lg) {
 	.wallpaper--oakandfort .wallpaper__image-holder {
 		background-position-x: 0!important;
+	}
+
+	.wallpaper--arrivehome .wallpaper__image-holder {
+		background-position-x: 30%!important;
+	}
+}
+
+@media (max-width: $breakpoint--md) {
+	.wallpaper--oakandfort .wallpaper__image-holder {
+		background-position-x: 20%!important;
+	}
+}
+
+@media (max-width: $breakpoint--sm) {
+
+	.wallpaper--stringamdenecky .wallpaper__image-holder {
+		background-position-y: -100px!important;
+	}
+
+	.wallpaper--arrivehome .wallpaper__image-holder {
+		background-position-y: -80px!important;
+	}
+
+	.wallpaper--cityofvancouver .wallpaper__image-holder {
+		background-position-y: -96px!important;
 	}
 }
