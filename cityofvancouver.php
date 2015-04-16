@@ -22,7 +22,6 @@ include('inc/side.php')
 
 				<p>The completed prototypes, along with the overall design concept were then presented to the city's stakeholders for approval before the final build.</p>
 
-
 				</div>
 
 				<div class="copy__moreinfo">

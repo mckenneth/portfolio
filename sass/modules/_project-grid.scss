@@ -55,10 +55,8 @@
 		z-index: 100!important;
 		cursor: pointer;
 		
-
-
 		&:link, &:hover, &:active, &:visited {
-			border: 0;
+			border: 0!important;
 			z-index: 100;
 			cursor: pointer;
 		}

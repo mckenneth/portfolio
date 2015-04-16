@@ -9,10 +9,6 @@
 	line-height: 1.4em;
 	color: rgba(0, 0, 0, 0.5);
 	@include clearfix;
-
-	a, a:link, a:visited {
-		color: rgba(68, 68, 68, 0.5);
-	}
 	
 	.h2 {
 		margin-bottom: 4rem;
@@ -41,10 +37,6 @@
 
 		&:last-child {
 			border:0;
-		}
-
-		a, a:link, a:visited {
-			border: 0;
 		}
 	}
 }

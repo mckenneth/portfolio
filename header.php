@@ -22,7 +22,7 @@
         }
 
         body {
-            background: #f0f0f0;
+            background: #f5f5f5;
         }
 
         .nav {
@@ -30,7 +30,7 @@
             width: 88px;
         }
 
-        .main { display: none; }
+        .main, .window { display: none; }
         .item__header { opacity: 0;}
         .project-nav__li { opacity: 0;}
     </style>
@@ -50,11 +50,13 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
     <script src="js/ismobile.js"></script>
-
 </head>
+
 <?php include('function.php');?>
-<body class="<?php bodyclass(); ?>">
-    <div class="window"></div>
+<body>
+    <div class="window">
+        <?php include('inc/about.php') ?>
+    </div>
    
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>

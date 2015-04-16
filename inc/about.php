@@ -8,7 +8,7 @@
 	</div>
 
 	<div class="content__col content__col--experience">
-		<h2>Experience</h2>
+		<h2 class="title">Experience</h2>
 		<dl>
 			<dt class="employer"><a href="http://kokko.me" target="_blank">KOKKO</a></dt>
 			<dd>
@@ -33,12 +33,7 @@
 	</div>
 
 	<div class="content__col content__col--contact">
-		<h2>Contact</h2>
+		<h2 class="title">Contact</h2>
 		<a href="mailto:hello@mlicon.ca">hello@mlicon.ca</a>
-
-		<ul class="social-nav buttons">	
-			<li class="social-nav__li"><a href="http://twitter.com/mckennethlicon" target="_blank"><i class="icon-twitter"></i></a></li>
-			<li class="social-nav__li"><a href="https://www.linkedin.com/in/mckennethlicon" target="_blank"><i class="icon-linkedin"></i></a></li>
-		</ul>
 	</div>
 </div>

@@ -24,7 +24,7 @@
 		width: 100%;
 		height: 100vh;
 		@include prefix(background-size, cover);
-		background-attachment: relative;
+		background-attachment: fixed;
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-position-x: center!important;
@@ -60,10 +60,14 @@
 
 @media (max-width: $breakpoint--sm) {
 	.wallpaper {
-		height: 280px;
+		height: 260px;
 
 		.project-logo {
-			width: 160px;
+			width: 140px;
+		}
+
+		&__image-holder {
+			background-attachment: initial;
 		}
 	}
 }

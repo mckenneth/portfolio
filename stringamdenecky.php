@@ -48,55 +48,55 @@ include('inc/side.php')
 		</div>
 
 		<div class="row">
-			<div class="image">
+			<div class="image--lg">
 				<img class="showImg lazy" src="img/spacer.gif" data-original="assets/stringamdenecky/stringam_001.jpg">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="image">
+			<div class="image--lg">
 				<img class="showImg lazy" src="img/spacer.gif" data-original="assets/stringamdenecky/stringam_002.jpg">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="image">			
+			<div class="image--lg">			
 				<img class="showImg lazy" src="img/spacer.gif" data-original="assets/stringamdenecky/stringam_003.jpg">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="image image--md">			
+			<div class="image--md">			
 				<img class="showImg lazy" src="img/spacer.gif" data-original="assets/stringamdenecky/stringam_003a.jpg">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="image">
+			<div class="image--lg">
 				<img class="showImg lazy" src="img/spacer.gif" data-original="assets/stringamdenecky/stringam_004.jpg">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="image">
+			<div class="image--lg">
 				<img class="showImg lazy" src="img/spacer.gif" data-original="assets/stringamdenecky/stringam_005.jpg">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="image">
+			<div class="image--lg">
 				<img class="showImg lazy" src="img/spacer.gif" data-original="assets/stringamdenecky/stringam_006.jpg">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="image image--md">
+			<div class="image--md">
 				<img class="showImg lazy" src="img/spacer.gif" data-original="assets/stringamdenecky/stringam_007.jpg">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="image image--sm">
+			<div class="image--sm">
 				<img class="showImg lazy" src="img/spacer.gif" data-original="assets/stringamdenecky/stringam_008.jpg">
 			</div>
 		</div>

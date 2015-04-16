@@ -1,21 +1,22 @@
 body {
 	background: #f5f5f5;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
-a, a:link {
+a {
 	text-decoration: none;
 	border-bottom: 1px solid #ddd;
-	@include trans(100ms);
-	color: rgba(68,68,68,0.5);
-}
-
-a:hover {
+	@include trans(200ms);
 	color: $text;
-	border-bottom: 1px solid $border;
-}
 
-a:visited, a:active {
-	color: $text;
+	&:link, &:visited, &:active {
+		@extend a;
+	}
+
+	&:hover {
+		border-bottom: 1px solid $border;
+	}
 }
 
 hr {
