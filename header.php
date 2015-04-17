@@ -32,7 +32,7 @@
 
         .main, .window { display: none; }
         .item__header { opacity: 0;}
-        .project-nav__li { opacity: 0;}
+        .project-nav .buttons__li { opacity: 0;}
     </style>
 
     <script>

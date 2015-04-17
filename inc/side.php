@@ -8,7 +8,7 @@
 			}
 		?>
 	</h1>
-	<?php include('inc/pagination.php') ?>
+	
 	<div class="global-nav">
 		<ul class="buttons">
 			<li class="buttons__li">

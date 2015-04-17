@@ -1,7 +1,7 @@
 .image {
 	display: inline-block;
 	width: 100%;
-	max-width: 960px;
+	max-width: 720px;
 	position: relative;
 
 	&:after {
@@ -66,6 +66,23 @@
 
 		&--lg {
 			max-width: 520px;
+		}
+
+		&--md {
+			max-width: 480px;
+		}
+
+		&--sm {
+			max-width: 320px;
+		}
+	}
+}
+
+@media (max-width: $breakpoint--lg) {
+	.image {
+
+		&--lg {
+			max-width: 400px;
 		}
 
 		&--md {

@@ -7,24 +7,24 @@
 			<tr>
 				<td>.h1</td>
 				<td>
-					<h1 class="h1">Finding The Perfect Frame</h1>
+					<h1 class="h1">Re-imagining online publication</h1>
 				</td>
 			<tr>
 				<td>.h2</td>
 				<td>
-					<h2 class="h2">In celebration of Movember, Biotherm and Clarisonic recently launched “Stache Stories.“ in H2</h2>
+					<h2 class="h2">Innovations and sustainable solutions for Energy conscious future</h2>
 				</td>
 			</tr>
 			<tr>
 				<td>.h3</td>
 				<td>
-					<h3 class="h3">In celebration of Movember, Biotherm and Clarisonic recently launched “Stache Stories“, a one-stop online social platform for all stache-related inquiries, grooming tips, stories and photos/videos by some of Canada’s top barbers and influencers.</h3>
+					<h3 class="h3">Kokko is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. With the company's growing demand for online shopping experience, I was brought on board to help launch the company's first digital storefront.</h3>
 				</td>
 			</tr>
 			<tr>
 				<td>.p</td>
 				<td>
-					<p class="p">Body text I don’t personally grow facial hair, as I don’t think I can pull it off yet. Not to mention how it juxtaposes with my rather tiny boyish frame — but I’m not saying never to the moustache or even a beard for that matter.  I think facial hair is sexy (on some men), but it’s not for everyone. However, if you haven’t tried the stached-out look yet, now is the perfect time! Like I always say, you’ll never really know unless you try. Plus, Biotherm and Clarisonic just launched an instagram contest as well for the ‘best staches they see’ so take your best stache selfie and post it on instagram, include the hashtag #stachestories to be entered to the contest.</p>
+					<p class="p">The website showcases a broad range of brands for both men and women, ranging from ready-to-wear, high-street-wear, to exclusive high-fashion. The goal is to create a platform that will encompass all the brands while keeping Kokko's own unique identity intack. Kokko's wide variety of product offerings presented a great challege.</p>
 				</td>
 			</tr>
 			<tr>

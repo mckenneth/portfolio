@@ -8,7 +8,7 @@ include('inc/side.php');
 	<?php include('inc/wallpaper.php') ?>
 
 	<article class="project project--<?php echo $project; ?>">
-		<div class="row--content">
+		<div class="row--content" data-midnight="white">
 			<div class="copy">
 				<p class="h2">Sophisticated tools connecting greats talents with great organizations.</p>
 				

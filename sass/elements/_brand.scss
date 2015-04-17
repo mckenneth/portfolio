@@ -23,8 +23,6 @@
 
 .brand__link {
 	display: inline-block;
-	height: 31px;
-	width: 56px;
 	border: 0;
 	
 	&:link, &:hover, &:active, &:visited {
@@ -41,23 +39,31 @@
 }
 
 
+@media (max-width: $breakpoint--md) {
+	.brand {
+
+		&:after {
+			display: none;
+		}
+	}
+}
+
 @media (max-width: $breakpoint--sm) {
 	.brand {
 		width: 60px;
-		height: 44px;
-		padding: 10px 10px 0 0;
-		top: 0;
+		height: 48px;
+		padding: 0;
 		position: absolute;
-		right: 40px;
-		border-right: 1px solid #ccc;
+		right: 49px;
+		padding: 1.1rem 1rem 0 0;
 
 		&:after {
 			display: none;
 		}
 
 		img {
-			width: 44px;
-			height: 24px;
+			width: 50px;
+			height: 25px;
 		}
 	}
 }

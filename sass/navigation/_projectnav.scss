@@ -21,6 +21,10 @@
 	.button:hover {
 		color: rgba(0,0,0,0.8);
 	}
+
+	&--two {
+		@extend .project-nav;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -28,10 +32,94 @@
 --------------------------------------------------------------*/
 @media (max-width: $breakpoint--md) {
 	.project-nav {
-		position: relative;
-		margin:-50% auto 0;
-		top: 40%;
-		right: 0;
-		left: none;
+		position: fixed;
+		right: 1.4rem;
+		left: initial;
+		top: 42%;
+		bottom: 0;
+		z-index: 1000;
+		width: 50px;
+		height: 180px;
+	}
+
+	.project-nav__li {
+		opacity: 1!important;
 	}
 }
+
+@media (max-width: $breakpoint--sm) {
+	.project-nav {
+		position: relative;
+		left: 0;
+		right: none;
+		top: none;
+		margin: 0;
+		width: 100%;
+		height: 48px;
+		background: #ddd;
+		border-bottom: 0px solid #ccc;
+
+		.buttons {
+			height: 48px;
+			position: relative;
+			top: 0;
+
+			&__li {
+				border-bottom: 0;
+				border-right: 1px solid #ccc;
+				position: absolute;
+			}
+
+			.button {
+				width: 100%;
+				height: 48px;
+			}
+		}
+
+		.project-nav--two {
+			height: 48px;
+			position: relative;
+
+			&__li {
+				border-bottom: 0;
+				border-right: 1px solid #eee;
+				position: absolute;
+			}
+
+			.project-nav__li--index {
+			width: 50%;
+			left: 0;
+			}
+
+			.project-nav__li--prev {
+				width: 50%;
+				left: 50%;
+				border-right: 0;
+			}
+
+			.project-nav__li--next {
+				width: 50%;
+				right: 0;
+				border-right: 0;
+			}
+		}
+
+		.project-nav__li--index {
+			width: 20%;
+			left: 0;
+		}
+
+		.project-nav__li--prev {
+			width: 40%;
+		
+			left: 20%;
+		}
+
+		.project-nav__li--next {
+			width: 40%;
+			right: 0;
+			border-right: 0;
+		}
+	}
+}
+

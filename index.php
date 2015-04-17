@@ -61,16 +61,15 @@
 	    		<img class="item__img" src="assets/oakandfort/oakandfort_cover.jpg" width="400" height="300">
     		</article> 
     		
-    		
-
-			<article class="item" id="pekarskystein">
-	    		<a class="item__link" href="pekarskystein">
+    	
+    		<article class="item" id="stringamdenecky">
+	    		<a class="item__link" href="stringamdenecky">
 	    			<h2 class="item__header">
-	    				<img class="item__logo" src="assets/pekarskystein/pekarskystein_logo_w.png" alt="Pekarsky Stein">
+	    				<img class="item__logo" src="assets/stringamdenecky/stringamdenecky_logo_w.png" alt="Stringam Denecky">
 	    			</h2>
 	    		</a>
-	    		<img class="item__img" src="assets/pekarskystein/pekarskystein_cover.jpg" width="400" height="300">
-    		</article> 
+	    		<img class="item__img" src="assets/stringamdenecky/stringamdenecky_cover.jpg" width="400" height="300">
+    		</article>  
 
 			<div class="item item--spacer"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
 	
@@ -79,14 +78,6 @@
 
     		<div class="item item--spacer"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
 
-			<article class="item" id="stringamdenecky">
-	    		<a class="item__link" href="stringamdenecky">
-	    			<h2 class="item__header">
-	    				<img class="item__logo" src="assets/stringamdenecky/stringamdenecky_logo_w.png" alt="Stringam Denecky">
-	    			</h2>
-	    		</a>
-	    		<img class="item__img" src="assets/stringamdenecky/stringamdenecky_cover.jpg" width="400" height="300">
-    		</article> 
 
 			<article class="item" id="arrivehome">
 	    		<a class="item__link" href="arrivehome">
@@ -95,6 +86,15 @@
 	    			</h2>
 	    		</a>
 	    		<img class="item__img" src="assets/arrivehome/arrivehome_cover.jpg" width="400" height="300">
+    		</article>
+
+    		<article class="item" id="pekarskystein">
+	    		<a class="item__link" href="pekarskystein">
+	    			<h2 class="item__header">
+	    				<img class="item__logo" src="assets/pekarskystein/pekarskystein_logo_w.png" alt="Pekarsky Stein">
+	    			</h2>
+	    		</a>
+	    		<img class="item__img" src="assets/pekarskystein/pekarskystein_cover.jpg" width="400" height="300">
     		</article>
     		
     		<article class="item" id="cityofvancouver">

@@ -5,6 +5,7 @@
         <script>window.jQuery || document.write('<script src="js/velocity.ui.min.js"><\/script>')</script>
 
         <script src="js/jquery.lazyload.min.js"></script>
+        <script src="js/midnight.jquery.min.js"></script>
         <script src="js/jquery.parallax.min.js"></script>
         <!-- script src="js/jquery.easing.1.3.js"></script -->
         

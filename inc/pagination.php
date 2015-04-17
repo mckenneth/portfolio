@@ -1,9 +1,9 @@
 <!-- if home, don't show navigation  -->
 <?php if ($is_home): else: ?>
-    <div class="project-nav stick">
+    <div class="project-nav">
     <ul class="buttons <?php echo $projNavclass ?>">
         <li class="project-nav__li buttons__li project-nav__li--index">
-        	<a class="project-nav__link project-nav__link--index button" href="<?php echo $backtohome ?>" title="View All"><i class="icon-projects"></i></a>
+        	<a class="project-nav__link project-nav__link--index button" href="<?php echo $backtohome ?>" title="View All"><i class="icon-grid"></i></a>
         </li>
 
         <?php if ($nextproject != '') { ?>

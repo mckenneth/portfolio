@@ -22,7 +22,7 @@
     }
 
     /* Project Navigation */
-    $projects = array('kokko', 'kenton', 'arrivehome', 'oakandfort', 'pekarskystein', 'stringamdenecky', 'artesia', 'cityofvancouver');
+    $projects = array('kokko', 'kenton', 'artesia', 'oakandfort','stringamdenecky', 'arrivehome', 'pekarskystein', 'cityofvancouver');
     $x = array_search($project, $projects);
     
     if ($page == 'styleguide') {

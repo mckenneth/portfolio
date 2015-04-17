@@ -4,33 +4,43 @@
 	right: 0;
 	width: 100%;
 
-	.button, .button:link, .button:visited {
-		border: 1px solid #dedede;
+	.button, .button:link, .button:active, .button:visited {
+		border: 1px solid #ddd;
 		@include prefix(border-radius, 100%);
 		width: 34px;
 		height: 34px;
-		color: rgba(0,0,0,0.6);
+	}
+
+	.button:hover {
+		border: 1px solid #eee;
 	}
 }
 
 @media (max-width: $breakpoint--md) {
 	.global-nav {
-		position: absolute;
-		bottom: 4rem;
-		right: 0;
-		width: 100%;
+		position: fixed;
+		width: 81px;
 	}
 }
 
 @media (max-width: $breakpoint--sm) {
 	.global-nav {
-		bottom: 4px;
-		width: 40px;
-	}
+		bottom: initial;
+		top: 0;
+		width: 48px;
+		height: 48px;
+		border-left: 1px solid rgba(0,0,0,0.2);
 
-	.button, .button:link, .button:visited {
-		border: 0!important;
-		height: 44px;
-		width: 44px;
+		.button, .button:link, .button:active, .button:visited {
+			border: 0!important;
+			@include prefix(border-radius, 0);
+			height: 48px;
+			width: 50px;
+			@include trans(400ms);
+		}
+
+		.active {
+			background: #eee;
+		}
 	}
 }

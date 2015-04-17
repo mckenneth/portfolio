@@ -50,8 +50,14 @@ $(function () {
 	}
 
 	function enterProjNav() {
-		$('.project-nav__li').velocity('transition.slideUpIn', { stagger: 100}),
-		projNav = true;
+		if ((about) || ($(window).scrollTop() >= vh) || isMobile())  {
+			if (isMobile()) {
+				$('.project-nav__li').velocity('transition.fadeIn');
+			} else {
+				$('.project-nav__li').delay(400).velocity('transition.slideUpIn', { stagger: 100})
+			}
+			projNav = true;
+		}
 	}
 
 	function exitProjNav() {
@@ -87,21 +93,30 @@ $(function () {
 
 	function slideOutMain() {
 		about = true;
+		$('#about').addClass('active');
 		event.preventDefault(),
 		window.history.pushState('object or string', 'Title', 'about'),
+		noScroll();
 		
-		setTimeout(function() {
-			$('.main').velocity({right:'90%'}, "easeOutElastic")
-		}, 200)
+		var vw = $(window).width();
+		if (vw < 481) {
+			setTimeout(function() {
+				$('.main').velocity({right:'100%'})
+			}, 0)
+		} else {
+			setTimeout(function() {
+				$('.main').velocity({right:'90%'})
+			}, 0)
+		}
 
 		$('.main').on('click', function(){
 			slideInMain()
 		});
-
 	}
 
 	function slideInMain() {
 		about = false;
+		$('#about').removeClass('active');
 		event.preventDefault(),
 		window.history.pushState('object or string', 'Title', curl ),
 
@@ -116,7 +131,9 @@ $(function () {
 	$('.mck').parallax();
 	$('.showImg').showImg();
 
+	/* on window load */
 	$(window).load(function(){
+		
 		if(window.location.href.indexOf('about') > -1) {
 	       slideOutMain(),
 	       setTimeout( function() {
@@ -128,7 +145,6 @@ $(function () {
 	    	enterMain()
 	    }, 400)
 	});
-
 
 	if(!isMobile()) {
 		nanobar.go(100),
@@ -163,7 +179,6 @@ $(function () {
 		});
 	}
 
-
 	//---------- CALL TO ACTION ----------//
 	$('.scrollto, .arrow__link').on('click', function(){
 		var x = $(this).attr('href');
@@ -186,11 +201,13 @@ $(function () {
 		if (!about) {	
 			slideOutMain(),
 			$('#about').find('.icon-info').removeClass().addClass('icon-close'),
-			$('.window').delay(600).velocity('transition.slideDownIn'),
+			$('.window').delay(400).velocity('transition.slideDownIn'),
 			exitProjNav()
 		} else {
 			slideInMain(),
-			$('#about').find('.icon-close').removeClass().addClass('icon-info')
+			$('#about').find('.icon-close').removeClass().addClass('icon-info'),
+			enterProjNav(),
+			yesScroll()
 		}
 	});
 

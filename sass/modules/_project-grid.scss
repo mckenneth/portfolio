@@ -10,8 +10,9 @@
 	display: inline-block;
 	width: (100%/3); /* rounded to fix bug on ipad */
 	overflow: hidden;
-	background: #000;
+	background: #444;
 	position: relative;
+
 
 	&--spacer {
 		@extend .item;
@@ -43,6 +44,7 @@
 		width: 100%;
 		height: auto!important;
 		z-index: 1;
+		// @include grayscale(1);
 	}
 
 	&__link {
@@ -74,7 +76,7 @@
 	}
 
 	&__logo {
-		width: 100%;
+		width: 80%;
 		position: absolute;
 		@include prefix(transform, translate(-50%, -50%));
 	}

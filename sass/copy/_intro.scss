@@ -1,12 +1,12 @@
 .intro {
 	position: relative;
 	overflow: hidden;
-	font-size: 1.2rem;
 
 	.intro__text {
 		@extend .h2;
 		margin: 8rem 6rem 8rem (100%/3)!important;
-		color: #838383;
+		font-size: 4.8rem;
+		color: #888;
 	}
 }
 
@@ -22,9 +22,12 @@
 @media (max-width: $breakpoint--sm) {
 
 	.intro {
+		margin: 4.8rem 0 2rem 0;
+
 		.intro__text {
 			margin: 2rem!important;
 		}
+
 		.break {
 			display: block;
 		}

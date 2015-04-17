@@ -8,3 +8,4 @@
 		<i class="arrow--down">down</i>
 	</a>	
 </section>
+<?php include('inc/pagination.php') ?>
