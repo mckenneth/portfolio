@@ -5,7 +5,7 @@
 ?>
 
 	<main role="main" class="main main--portfolio <?php echo $main_class ?>">
-
+		<div class="overlay"></div>
 		<?php include('inc/wallpaper.php') ?>
 
 		<article class="project project--<?php echo $project; ?>">

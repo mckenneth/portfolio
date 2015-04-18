@@ -1,0 +1,13 @@
+.error404 {
+	width: 400px;
+	padding: 0 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	@include prefix(transform, translate(-50%, -50%));
+
+	p {
+		margin-bottom: 0;
+	}
+}

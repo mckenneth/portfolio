@@ -76,7 +76,7 @@
 	}
 
 	&__logo {
-		width: 80%;
+		width: 160px;
 		position: absolute;
 		@include prefix(transform, translate(-50%, -50%));
 	}

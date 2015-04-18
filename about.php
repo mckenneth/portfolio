@@ -4,9 +4,9 @@
 		<section role="article" class="intro">
 			<h3 class="intro__text">
 		        <strong>Hello</strong>. Bonjour.<br />
-		        My name is <br class="break"/>M'c kenneth<br />
-		        I'm a Graphic Designer &amp; <br/>
-		        front-end developer.
+		        My name is <br class="break"/><a id="name" href="#">M'c kenneth</a><br />
+		        I'm a <a href="#projectgrid" class="scrollto--projects">Graphic Designer</a> &amp; <br/>
+		        <a href="#projectgrid" class="scrollto--projects">Front-end Developer</a>.
 	        </h3>
 			<div class="mck" role="banner">
 				<img class="layer" data-depth="0.5" src="<?php echo 'data:image/svg+xml;base64,'.$logo_outline

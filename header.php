@@ -26,11 +26,12 @@
         }
 
         .nav {
+            height: 100%;
             height: 100vh;
             width: 88px;
         }
 
-        .main, .window { display: none; }
+        .main, .content__col { display: none; }
         .item__header { opacity: 0;}
         .project-nav .buttons__li { opacity: 0;}
     </style>
@@ -45,7 +46,7 @@
       })(document);
     </script>
     <link rel="stylesheet" href="style.min.css">
-    <link href="https://fontastic.s3.amazonaws.com/Y8H6mJjSDqs8SZSbAXn6TK/icons.css" rel="stylesheet">
+ <!--    <link href="https://fontastic.s3.amazonaws.com/Y8H6mJjSDqs8SZSbAXn6TK/icons.css" rel="stylesheet"> -->
     <script src="js/modernizr-2.8.3.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>

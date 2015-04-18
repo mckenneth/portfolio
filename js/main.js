@@ -54,14 +54,14 @@ $(function () {
 			if (isMobile()) {
 				$('.project-nav__li').velocity('transition.fadeIn');
 			} else {
-				$('.project-nav__li').delay(400).velocity('transition.slideUpIn', { stagger: 100})
+				$('.project-nav__li').delay(400).velocity('transition.slideUpIn', { stagger: 80})
 			}
 			projNav = true;
 		}
 	}
 
 	function exitProjNav() {
-		$('.project-nav__li').velocity('transition.fadeOut', 400),
+		$('.project-nav__li').velocity('transition.slideLeftOut', 400),
 		projNav = false;
 	}
 
@@ -105,13 +105,9 @@ $(function () {
 			}, 0)
 		} else {
 			setTimeout(function() {
-				$('.main').velocity({right:'90%'})
-			}, 0)
+				$('.main').velocity({right:'90%'});
+			}, 400)
 		}
-
-		$('.main').on('click', function(){
-			slideInMain()
-		});
 	}
 
 	function slideInMain() {
@@ -122,7 +118,7 @@ $(function () {
 
 		setTimeout(function() {
 			$('.main').velocity({right:"0%"}, myEase, 400).css({'transform':'none'}),
-			$('.window').fadeOut(400)
+			$('.content__col').fadeOut(400)
 		}, 200)
 	}
 
@@ -131,13 +127,19 @@ $(function () {
 	$('.mck').parallax();
 	$('.showImg').showImg();
 
+	/* bouncing arrow down */
+	// function arrowdownBounce() {
+	// 	$('.arrow--down').delay(6000).velocity('callout.bounce' , arrowdownBounce)	
+	// }
+	// $('.arrow--down').delay(2000).velocity('callout.bounce', arrowdownBounce)
+
 	/* on window load */
 	$(window).load(function(){
 		
 		if(window.location.href.indexOf('about') > -1) {
 	       slideOutMain(),
 	       setTimeout( function() {
-		    	$('.window').fadeIn(400)
+		    	$('.content__col').delay(800).velocity('transition.slideDownIn', {stagger: 60})
 		    }, 400)
 	    }
 
@@ -192,16 +194,27 @@ $(function () {
 		})
 	});
 
+	$('.scrollto--projects').on('click', function(){
+		event.preventDefault(),
+		
+		$('#project-grid').velocity('scroll', {
+			duration: 600,
+			delay: 0,
+			mobileHA: false,
+			offset: 1
+		})
+	});
+
 	$('.project-nav__link, .brand__link, .item__link').on('click', function(){
 		var href = this.href;
 		goto(href)
 	});
 
-	$('#about').on('click', function(){
+	$('#about, #name').on('click', function(){
 		if (!about) {	
 			slideOutMain(),
 			$('#about').find('.icon-info').removeClass().addClass('icon-close'),
-			$('.window').delay(400).velocity('transition.slideDownIn'),
+			$('.content__col').delay(800).velocity('transition.slideDownIn', {stagger: 60}),
 			exitProjNav()
 		} else {
 			slideInMain(),

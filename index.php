@@ -4,9 +4,9 @@
 		<section role="article" class="intro">
 			<h3 class="intro__text">
 		        <strong>Hello</strong>. Bonjour.<br />
-		        My name is <br class="break"/>M'c kenneth<br />
-		        I'm a Graphic Designer &amp; <br/>
-		        front-end developer.
+		        My name is <br class="break"/><a id="name" href="#">M'c kenneth</a><br />
+		        I'm a <a href="#projectgrid" class="scrollto--projects">Graphic Designer</a> &amp; <br/>
+		        <a href="#projectgrid" class="scrollto--projects">Front-end Developer</a>.
 	        </h3>
 			<div class="mck" role="banner">
 				<img class="layer" data-depth="0.5" src="<?php echo 'data:image/svg+xml;base64,'.$logo_outline
@@ -62,23 +62,31 @@
     		</article> 
     		
     	
-    		<article class="item" id="stringamdenecky">
+    	
+    		<article class="item" id="pekarskystein">
+	    		<a class="item__link" href="pekarskystein">
+	    			<h2 class="item__header">
+	    				<img class="item__logo" src="assets/pekarskystein/pekarskystein_logo_w.png" alt="Pekarsky Stein">
+	    			</h2>
+	    		</a>
+	    		<img class="item__img" src="assets/pekarskystein/pekarskystein_cover.jpg" width="400" height="300">
+    		</article>
+
+			<div class="item item--spacer"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
+	
+    		<div class="item--spacer--gray"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
+
+    		<div class="item item--spacer"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
+
+			<article class="item" id="stringamdenecky">
 	    		<a class="item__link" href="stringamdenecky">
 	    			<h2 class="item__header">
 	    				<img class="item__logo" src="assets/stringamdenecky/stringamdenecky_logo_w.png" alt="Stringam Denecky">
 	    			</h2>
 	    		</a>
 	    		<img class="item__img" src="assets/stringamdenecky/stringamdenecky_cover.jpg" width="400" height="300">
-    		</article>  
-
-			<div class="item item--spacer"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
-	
+    		</article>
     		
-    		<div class="item--spacer--gray"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
-
-    		<div class="item item--spacer"><img class="item__img" src="img/spacer.png" width="400" height="300" alt="spacer"></div>
-
-
 			<article class="item" id="arrivehome">
 	    		<a class="item__link" href="arrivehome">
 	    			<h2 class="item__header">
@@ -88,15 +96,7 @@
 	    		<img class="item__img" src="assets/arrivehome/arrivehome_cover.jpg" width="400" height="300">
     		</article>
 
-    		<article class="item" id="pekarskystein">
-	    		<a class="item__link" href="pekarskystein">
-	    			<h2 class="item__header">
-	    				<img class="item__logo" src="assets/pekarskystein/pekarskystein_logo_w.png" alt="Pekarsky Stein">
-	    			</h2>
-	    		</a>
-	    		<img class="item__img" src="assets/pekarskystein/pekarskystein_cover.jpg" width="400" height="300">
-    		</article>
-    		
+
     		<article class="item" id="cityofvancouver">
 	    		<a class="item__link" href="cityofvancouver">
 	    			<h2 class="item__header">
