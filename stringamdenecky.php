@@ -14,7 +14,7 @@
 		<div class="row--content">
 			
 			<div class="copy">
-			<p class="h2">Exploring new ways to engage and provide customized solutions</p>
+			<p class="h2">Providing modern ways to engage clients and offer tailored solutions.</p>
 
 			<div class="copy__brief text-col-2">
 

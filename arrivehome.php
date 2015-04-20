@@ -26,7 +26,7 @@
 				<div class="copy__moreinfo">
 				<dl>	
 					<dt>Roles</dt>
-					<dd>Front-end Development, CMS Integration</dd>
+					<dd>Front-end Developer, CMS Integration</dd>
 
 					<!-- <dt>Credits</dt>
 					<dd><a href="http://crystaloicle.com/">Art Direction &amp; Design: Crystal Oicle</a></dd> -->

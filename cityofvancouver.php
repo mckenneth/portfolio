@@ -13,7 +13,7 @@
 		<div class="row--content">
 			
 			<div class="copy">
-				<p class="h2">Redesigning Vancouver's home on the World Wide Web</p>
+				<p class="h2">Redesigning Vancouver's home on the World Wide Web.</p>
 
 				<div class="copy__brief text-col-2">
 				<p>During my internship at Ion Brand Design, I was fortunate to have been involved in redesigning the new website for the City of Vancouver alongside few of the city's most talented designers.</p>

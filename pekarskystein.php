@@ -12,7 +12,7 @@
 	<article class="project project--<?php echo $project; ?>">
 		<div class="row--content" data-midnight="white">
 			<div class="copy">
-				<p class="h2">Sophisticated tools connecting greats talents with great organizations.</p>
+				<p class="h2">Sophisticated tools connecting greats talents with equally great organizations.</p>
 				
 				<div class="copy__brief text-col-2">
 				<p>Pekarsky Stein is Western Canada's leading boutique search firm. In collaboration with <a href="http://foundrycommunications.ca" target="_blank" title="Foundry Communications">Foundry Communications</a> and <a href="http://brightsidestudios.ca" target="_blank" title="Brightside Studios">Brightside Studios</a>, I was commissioned to develop a custom Wordpress site with a fully integrated job posting board.</p>

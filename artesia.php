@@ -14,7 +14,7 @@
 		<div class="row--content">
 			
 			<div class="copy">
-				<p class="h2">Providing the community an online platform to explore Artesia.</p>
+				<p class="h2">Form meets function. Informative and highly engaging platform delivered.</p>
 				<section class="copy__brief text-col-2">
 				<p>Artesia is an award winning Community developed by Heritage Pointe Properties. In collaboration with
 				<a href="http://brightsidestudios.ca" target="_blank">BrighsideStudios.ca</a>, I was involved in developing Artesia's website in the Spring of 2012.  Our main goal is to provide users with an online platform to learn about Artesia in an informative and engaging way.</p>
