@@ -1,7 +1,7 @@
 <?php
     $currentpage = basename($_SERVER['PHP_SELF'],".php");
     $url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-    $home = 'http://'.$_SERVER['HTTP_HOST'].'/portfolio/';
+    $home = 'http://'.$_SERVER['HTTP_HOST'].'/';
     
     // require('inc/about.php');
     if ($title = '') {  

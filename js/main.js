@@ -6,9 +6,7 @@ $(function () {
 	var curl = window.location.href;
 	var about = false;
 	var myEase = [0.455, 0.030, 0.515, 0.955];
-	var projNav = false;
-
-	
+	var projNav = false;	
 
 	/* image res selector */
 	$.fn.showImg = function() {

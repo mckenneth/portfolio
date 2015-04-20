@@ -47,17 +47,18 @@ w/* INTERNAL */
 		border: 1px solid $border3;
 	}
 
-	tr td:first-child {
+	td:first-child {
 		width: 20%;
 		text-align: left;
 	}
 
-	tr td:first-child,
-	th, .sg__elements tr td:last-child {
+	th,
+	td:first-child,
+	td:last-child {
 		font-family: courier;
 	}
 
-	.sg__elements tr td:last-child {
+	.sg__elements td:last-child {
 		width: 25%;
 		color: $text3;
 	}

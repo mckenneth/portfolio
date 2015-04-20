@@ -115,7 +115,6 @@
 
 		&--content {
 			min-height: initial;
-			@include prefix(box-sizing, box-box);
 			padding: 5rem 4rem;
 		}
 	}

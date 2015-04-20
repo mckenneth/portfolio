@@ -20,7 +20,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="<?php echo $title; ?>">
     <meta property="og:url" content="http://mlicon.ca/">
-    <meta property="og:image" content="http://mlicon.com/img/mlicon_facebook.jpg">
+    <meta property="og:image" content="http://mlicon.ca/img/mlicon_facebook.jpg">
     <meta property="og:site_name" content="M'c kenneth Licon">
     <meta property="og:description" content="<?php echo $description; ?>">
 
