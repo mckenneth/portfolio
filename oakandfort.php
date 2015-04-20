@@ -1,4 +1,6 @@
 <?php
+	$title = "M'c kenneth Licon - OAK + FORT";
+	$description = "OAK + FORT is a retail brand dedicated to a fused culture of art, fashion and exploration.  The brand offers curated collections of minimal and thoughtfully designed garments for both men and women.";
 	$project = 'oakandfort';
 	include('header.php');
 	include('inc/side.php')

@@ -1,8 +1,10 @@
 <?php
-$project = 'artesia';
-$projTitle = 'Artesia';
-include('header.php');
-include('inc/side.php')
+	$title = "M'c kenneth Licon - Artesia";
+	$description = "Artesia is an award winning Community developed by Heritage Pointe Properties.";
+	$project = 'artesia';
+	$projTitle = 'Artesia';
+	include('header.php');
+	include('inc/side.php')
 ?>
 
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">

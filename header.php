@@ -6,10 +6,31 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>M'c kenneth Licon -  Interactive Media Designer/Developer</title>
-    <meta name="description" content="">
+    <title><?php echo $title; ?></title>
+    <meta name="description" content="<?php echo $description; ?>">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- SOCIAL DATAS -->
+    <!-- GOOGLE PLUS -->
+    <meta itemprop="name" content="<?php echo $title; ?>">
+    <meta itemprop="description" content="<?php echo $description; ?>">
+
+    <!-- FACEBOOK -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<?php echo $title; ?>">
+    <meta property="og:url" content="http://mlicon.ca/">
+    <meta property="og:image" content="http://mlicon.com/img/mlicon_facebook.jpg">
+    <meta property="og:site_name" content="M'c kenneth Licon">
+    <meta property="og:description" content="<?php echo $description; ?>">
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mckennethlicon">
+    <meta name="twitter:title" content="<?php echo $title; ?>">
+    <meta name="twitter:description" content="<?php echo $description; ?>">
+    <meta name="twitter:image" content="http://mlicon.com/img/mlicon_facebook.jpg">
+
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-precomposed-76x76.png">

@@ -1,9 +1,10 @@
 <?php 
+	$title = "M'c kenneth Licon - KOKKO";
+	$description ="KOKKO is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. With the company's growing demand for online shopping experience, I was brought on board to help launch the company's first digital storefront.";
 	$project = 'kokko';
-	$copyBrief = "
-					<p>KOKKO is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. With the company's growing demand for online shopping experience, I was brought on board to help launch the company's first digital storefront.</p>
+	$copyBrief = "<p>KOKKO is a luxury retail boutique curating exclusive fashion, art and lifestyle pieces. With the company's growing demand for online shopping experience, I was brought on board to help launch the company's first digital storefront.</p>
 
-					<p>The website showcases a broad range of brands for both men and women, ranging from ready-to-wear, high-street-wear, to exclusive high-fashion.  The goal is to create a platform that will encompass all the brands while keeping Kokko's own unique identity intack.  Kokko's wide variety of product offerings presented a great challege. </p>
+					<p>The website showcases a broad range of brands for both men and women, ranging from ready-to-wear, high-street-wear, to exclusive high-fashion.  The goal is to create a platform that will encompass all the brands while keeping Kokko's own unique identity intact.  Kokko's wide variety of product offerings presented a great challege. </p>
 
 					 <p>My approach was to simplify the concept and focus on the key elements that KOKKO's consumer value the most: Products, Usability and Accessibility.  The concept utilizes enticing fashion images and clean typography to convey elegance and luxury.  The interface is kept bare and simple with familiar navigation patterns. 
 

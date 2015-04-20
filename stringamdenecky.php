@@ -1,8 +1,10 @@
 <?php
-$project = 'stringamdenecky';
-$projTitle = 'Stringam Denecky';
-include('header.php');
-include('inc/side.php')
+	$title = "Mc' kenneth Licon - Stringam Denecky Law Office";
+	$description = "Stringam Denecky is a Canadian boutique law firm committed in providing the very best legal services for over a hundred year.  Stringam works with experienced team, handling variety of cases in all areas of law, from family and divorce to business, agriculture, and personal injury.";
+	$project = 'stringamdenecky';
+	$projTitle = 'Stringam Denecky';
+	include('header.php');
+	include('inc/side.php')
 ?>
 
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">

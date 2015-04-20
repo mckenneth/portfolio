@@ -1,4 +1,6 @@
 <?php
+	$title = "M'c kenneth Licon - Kenton Magazine";
+	$description = "KENTON magazine is a leading, global online fashion and lifestyle magazine for young professionals.  Bringing readers to the forefront of fashion, culture and society, KENTON magazine delivers original content from an industry insider’s perspective.";
 	$project = 'kenton';
 	include('header.php');
 	include('inc/side.php')

@@ -1,4 +1,7 @@
-<? include('header.php') ?>
+<? 
+	$title = "M'c kenneth Licon - Graphic Designer / Interactive Media Developer";
+	$description = "I'm a cross-disciplinary graphic designer and web developer, specializing in eCommerce and front-end development.";
+	include('header.php') ?>
 	<? include('inc/side.php') ?>
 	<main role="main" class="main">
 		<section role="article" class="intro">

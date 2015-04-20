@@ -16,7 +16,7 @@
 	}
 
 	dd {
-		border-bottom: 1px solid #ddd;
+		border-bottom: 1px solid #ccc;
 		padding-bottom: 1rem;
 
 		&:last-child {
@@ -79,6 +79,7 @@
 	.copy {
 		margin: 0;
 		width: 100%;
+		font-size: 1.2rem;
 
 		&__brief {
 			width: 100%;
@@ -86,7 +87,7 @@
 
 		&__moreinfo {
 			width: 50%;
-			margin-top: 4rem;
+			margin-top: 2rem;
 			padding: 0;
 			float: left;
 
@@ -102,9 +103,13 @@
 
 		dd {
 			border: 0;
+			margin-bottom: 0;
+			padding-bottom: 2rem;
 		}
 
-
+		.h2 {
+			margin-bottom: 1rem!important;
+		}
 	}
 
 	.text-col-2 {

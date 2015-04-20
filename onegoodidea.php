@@ -1,7 +1,9 @@
 <?php
-$project = 'onegoodidea';
-include('header.php');
-include('inc/side.php')
+	$title = "";
+	$description = "";
+	$project = 'onegoodidea';
+	include('header.php');
+	include('inc/side.php');
 ?>
 
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">

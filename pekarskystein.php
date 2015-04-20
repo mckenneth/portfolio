@@ -1,7 +1,9 @@
 <?php
-$project = 'pekarskystein';
-include('header.php');
-include('inc/side.php');
+	$title = "M'c kenneth Licon - Pekarsky Stein";
+	$description = "Pekarsky Stein is Western Canada's leading boutique search firm.";
+	$project = 'pekarskystein';
+	include('header.php');
+	include('inc/side.php');
 ?>
 
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">

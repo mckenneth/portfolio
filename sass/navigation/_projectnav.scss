@@ -6,7 +6,8 @@
 	top: 0;
 
 	.buttons__li {
-		border-bottom: 1px solid rgba(34,34,34,0.1);
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+		@include trans(200ms);
 
 		&:last-child {
 			border-bottom: 0;
@@ -16,6 +17,7 @@
 	.button {
 		background: rgba(255,255,255,0);
 		color: rgba(0,0,0,0.4);
+		@include prefix(border-radius, 0)
 	}
 
 	.button:hover {
@@ -35,11 +37,17 @@
 		position: fixed;
 		right: 1.4rem;
 		left: initial;
-		top: 4%;
+		top: 50%;
 		bottom: 0;
 		z-index: 1000;
 		width: 50px;
-		height: 180px;
+		height: 158px;
+		@include prefix(transform, translateY(-50%));
+
+		.project-nav--two {
+			height: auto;
+			left: 0;
+		}
 	}
 
 	.project-nav__li {
@@ -56,8 +64,9 @@
 		margin: 0;
 		width: 100%;
 		height: 48px;
-		background: #ddd;
+		background: #eee;
 		border-bottom: 0px solid #ccc;
+		@include prefix(transform, translateY(0%));
 
 		.buttons {
 			height: 48px;
@@ -66,7 +75,7 @@
 
 			&__li {
 				border-bottom: 0;
-				border-right: 1px solid #ccc;
+				border-right: 1px solid #ddd;
 				position: absolute;
 			}
 
@@ -74,11 +83,18 @@
 				width: 100%;
 				height: 48px;
 			}
+
+			.button:focus {
+				-webkit-background: pink
+			}
 		}
+
 
 		.project-nav--two {
 			height: 48px;
 			position: relative;
+			width: 100%;
+			margin-top: 0px;
 
 			&__li {
 				border-bottom: 0;

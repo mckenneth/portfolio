@@ -1,7 +1,9 @@
 <?php
-$project = 'cityofvancouver';
-include('header.php');
-include('inc/side.php')
+	$title = "M'c kenneth Licon - City of Vancouver";
+	$description = "Redesigning Vancouver's home on the World Wide Web";
+	$project = 'cityofvancouver';
+	include('header.php');
+	include('inc/side.php');
 ?>
 
 <main role="main" class="main main--portfolio <?php echo $main_class ?>">

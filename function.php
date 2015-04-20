@@ -2,9 +2,15 @@
     $currentpage = basename($_SERVER['PHP_SELF'],".php");
     $url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
     $home = 'http://'.$_SERVER['HTTP_HOST'].'/portfolio/';
+    
+    // require('inc/about.php');
+    if ($title = '') {  
+        $title = "M'c kenneth Licon - Interactive Media Designer";   
+    } else {
+        $is_home = false;
+    }
 
     // require('inc/about.php');
-    
     if ($currentpage == 'index') {  
         $is_home = true;    
     } else {
@@ -44,4 +50,5 @@
 xMCAxNS40IGMyNS4zNTQgNC42IDQ3LjYgMjAuNyA0Ny42IDQ3LjU5NkMxMTg2LjM1OSAxMzMgMTE2NC4xIDE1MC43IDExMjcuMiAxNjYuMDA2eiIvPgo8cGF0aCBzdHJva2U9IiNjY2MiIGZpbGw9Im5vbmUiIGQ9Ik05NDguMiA2NDEuOTZsLTExLjUyNC00NjMuMTYxYy0zLjg0Mi0xMzEuNzgzIDMuODQyLTEzNC4zNDIgMTE3LjgwNS0xNDQuNTc4Vi0xLjYwM0g4MzYuNzk4IEw1MzkuNzI1IDYzOS40MDFMMjQ3Ljc3NC0xLjYwM2gtMjEwdjM1LjgyNWMxMTYuNTI0IDExLjUgMTIyLjkgMTYuNiAxMTEuNCAxODIuOTYxTDEzMS4yNSA0ODMuMyBjLTguOTYzIDEzNC4zNDItMTYuNjQ2IDE4OS4zNTgtMjQuMzI5IDIzNC4xMzljLTguOTYzIDUzLjczNy0zMy4yOTMgNjkuMDkxLTEwOC44NDIgNzYuNzY4djM1LjgyNGgyOTguMzU0di0zNS44MjQgYy04NS43OTItOC45NTYtMTE1LjI0NC0xNy45MTMtMTE3LjgwNS03OS4zMjZjLTEuMjgtNTEuMTc4LTEuMjgtMTA2LjE5NCAzLjg0MS0yMTIuMzg5bDE5LjIwOC0zNjQuNjQzaDIuNTYxbDI4Ni44MjkgNjgzLjIgaDI1LjYwOWwzMTIuNDM5LTcwMS4xMzloNS4xMjFsNS4xMjIgNTIyLjAxNmMwIDEzNS42MjItMy44NDEgMTQzLjI5OS0xMDguODQxIDE1Mi4yNTV2MzUuODI0aDMzNi43Njh2LTM1LjgyNCBDOTU1Ljg4MyA3ODUuMyA5NTIgNzc3LjYgOTQ4LjIgNjQxLjk2eiIvPgo8L3N2Zz4=';
 
     $brand = '<img class="logo" src="data:image/svg+xml;base64,'.$logo.'" width="56" height="31" alt="Mlicon">';
+
 ?>

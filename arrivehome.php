@@ -1,4 +1,6 @@
 <?php
+	$title = "M'c kenneth Licon - Arrive Home";
+	$description = "Arrive is a Calgary-based home development company known for their energy conscious building techniques.  Devoted to environmental friendly practices, Arrive uses green materials and pushes for energy and water saving features in their home designs.";
 	$project = 'arrivehome';
 	include('header.php');
 	include('inc/side.php')
