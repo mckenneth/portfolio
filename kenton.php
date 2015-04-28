@@ -13,7 +13,7 @@
 				<div class="copy">
 					<p class="h2">Re-imagining online publication for modern and mobile audience.</p>
 					<div class="copy__brief text-col-2">
-						<p>KENTON magazine is an online fashion and lifestyle magazine for young professionals.  Bringing readers to the forefront of fashion, culture and society, KENTON magazine delivers original content from an industry insider’s perspective.</p>
+						<p>KENTON magazine is a leading, global online fashion and lifestyle magazine for young professionals.  Bringing readers to the forefront of fashion, culture and society, KENTON magazine delivers original content from an industry insider’s perspective.</p>
 
 						<p>To celebrate a year of successful online publishing, I was commissioned to help redesign KENTON for their growing mobile users.</p>
 					
