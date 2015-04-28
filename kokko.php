@@ -34,8 +34,6 @@
 							<dd><?php echo $roles ?></dd>
 							<dt>Launched</dt>
 							<dd><?php echo $launched ?></dd>
-							<dt>Link</dt>
-							<dd><a href="http://<?php echo $thelink ?>" target="_blank" title="KOKKO - Luxury Boutique"><?php echo $thelink ?></a></dd>
 						</dl>
 					</div>
 				</div>
