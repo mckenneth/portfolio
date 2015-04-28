@@ -22,8 +22,8 @@
 			position: absolute;
 			left: 50%;
 			bottom: 0.4rem;
-			height: 1px;
-			background: #ddd;
+			height: 2px;
+			background: #eee;
 
 			@include trans(200ms);
 		}

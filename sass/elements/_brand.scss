@@ -42,9 +42,15 @@
 @media (max-width: $breakpoint--md) {
 	.brand {
 
+		padding-top: 1.6rem;
+
 		&:after {
 			display: none;
 		}
+	}
+
+	.logo {
+		height: 28px;
 	}
 }
 
