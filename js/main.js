@@ -143,6 +143,8 @@ $(function () {
 	/* on window load */
 	$(window).load(function(){
 		
+		nanobar.go(100);
+
 		if(window.location.href.indexOf('about') > -1) {
 	       slideOutMain(),
 	       setTimeout( function() {
@@ -155,7 +157,7 @@ $(function () {
 	    }, 400)
 	});
 
-	nanobar.go(100);
+	
 
 	if(!isMobile()) {
 		
